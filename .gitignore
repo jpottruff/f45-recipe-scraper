@@ -1,5 +1,6 @@
 # Credentials
 credentials.js
+test-data/
 
 # Dependency directories
 node_modules/
