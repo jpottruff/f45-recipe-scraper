@@ -13,8 +13,21 @@ module.exports = {
         MEAL_PLANS: {
             url: 'https://f45challenge.com/meals-plans/',
             selectors: {
-                
-            }
+                MEALS_FOR_WEEK_SELECTOR : 'div.meal > div',
+        
+                MEAL_SECTION_SELECTOR : '.meal_section',
+                MEAL_ROW_SELECTOR : '#meal-row',
+
+                // Section Selectors
+                MEAL_DAY_SELECTOR : '.meal-day',
+                MEAL_DATE_SELECTOR : '.meal-date',
+
+                //Meals Selectors
+                MEAL_DETAILS_SELECTOR : '.meal_details',
+                MEAL_CATEGORY_SELECTOR : '.meal_category',
+                MEAL_TITLE_SELECTOR : '.meal_title',
+                MEAL_LINK_SELECTOR : '.meal_title a',
+            },
         }
     }
 }
