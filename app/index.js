@@ -19,13 +19,29 @@ async function run() {
     await login(page);
 
     // Go to Meal Plans Page
-    page.goto(webdata.pages.MEAL_PLANS.url);
-    await page.waitFor(10*1000);
-    console.log('...Waited 10 seconds');
+    await page.goto(webdata.pages.MEAL_PLANS.url);
+    console.log('ON MEAL PLANS PAGE');
 
-    const weeklyData = await getThisWeeksMeals(page);
-    console.log("GOT THIS WEEKS DATA");
-    console.log(weeklyData);   
+    // Detmerine which weeks are available and get the necessary data to iterate through them
+    const availableWeeks = await getAvailableWeeksFromMenu(page);
+    console.log(availableWeeks);
+
+    //FIX ME - make it a function
+    for (let week of availableWeeks) {
+        // Go to the Page
+        let url = webdata.pages.MEAL_PLANS.url + week.linkToAppend;
+        await page.goto(url);
+
+        // Get the Data
+        console.log(`GETTING WEEK ${week.week} DATA...`)
+        let mealData = await getThisWeeksMeals(page);
+        console.log(`GOT WEEK ${week.week}'s DATA`);
+        
+        // Add it to the week (FIXME - do it better)
+        week.mealData = mealData;
+        // console.log(JSON.stringify(week.mealData[1].mealsForDay));
+        
+    } 
 
     //TODO - rest of app
 
@@ -50,10 +66,38 @@ async function login(page) {
     console.log('LOGGED IN');
 }
 
-async function getThisWeeksMeals(page) {
-
+async function getAvailableWeeksFromMenu(page) {
+    console.log("GETTING AVAILABLE WEEKS...")
     const SELECTORS = webdata.pages.MEAL_PLANS.selectors;
+
+    const availableWeeks = await page.evaluate( (SELECTORS) => {
+        const menuItems = document.querySelectorAll(SELECTORS.MENU_ITEM_SELECTOR);
+        let data = [];
+
+        // Iterate through all the Weeks in the menu; Add them to the data if they are no disabled
+        for (const item of menuItems){
+            if ( !item.classList.contains('disabled') ){
+                data.push({
+                    // html: item.outerHTML,
+                    week: item.querySelector(SELECTORS.MENU_ITEM_LINK_SELECTOR).innerText,
+                    linkToAppend: item.querySelector(SELECTORS.MENU_ITEM_LINK_SELECTOR).getAttribute('href')
+                });
     
+                // data.push({availableWeek});
+            }
+        }
+        // Return all the gathered data
+        return data; 
+    }, SELECTORS );
+
+    console.log("GOT AVAILABLE WEEKS")
+    return availableWeeks;
+}
+
+
+async function getThisWeeksMeals(page) {
+    const SELECTORS = webdata.pages.MEAL_PLANS.selectors;
+
     let thisWeeksMeals = await page.evaluate( (SELECTORS) => {
         const currentWeeksMeals = document.querySelectorAll(SELECTORS.MEALS_FOR_WEEK_SELECTOR);
         let data = [];
@@ -103,30 +147,35 @@ async function getThisWeeksMeals(page) {
 
         // Return the Data
         return data;
-
     }, SELECTORS);
 
     return thisWeeksMeals;
 }
 
+
+
+
+
 // TEST STUFF
-async function testScrape() {
-    //Launching non-headless for visual debugging
-    const browser = await puppeteer.launch({
-        headless: false
-    });
 
-    // BROWSE TO TEST PAGE
-    const page = await browser.newPage();
-    await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/test.html');
+// async function testScrape() {
+//     //Launching non-headless for visual debugging
+//     const browser = await puppeteer.launch({
+//         headless: false
+//     });
 
-    // Get This weeks Data
-    const weeklyData = await getThisWeeksMeals(page);
-    console.log(weeklyData);
-}
+//     // BROWSE TO TEST PAGE
+//     const page = await browser.newPage();
+//     // await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/test.html');
+//     await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/sample-weekly-menu.html');
+
+//     const availableWeeks = await getAvailableWeeksFromMenu(page);
+//     console.log(availableWeeks);
+// }
+
 // END TEST STUFF
 
 
 
-testScrape();
+// testScrape();
 run();
