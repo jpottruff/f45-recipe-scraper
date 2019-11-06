@@ -34,16 +34,40 @@ async function run() {
 
         // Get the Data
         console.log(`GETTING WEEK ${week.week} DATA...`)
-        let mealData = await getThisWeeksMeals(page);
+        let dayData = await getThisWeeksMeals(page);
         console.log(`GOT WEEK ${week.week}'s DATA`);
         
         // Add it to the week (FIXME - do it better)
-        week.mealData = mealData;
-        // console.log(JSON.stringify(week.mealData[1].mealsForDay));
-        
+        week.dayData = dayData;
     } 
 
-    //TODO - rest of app
+    
+
+    //Now we have the data - with all the links - go get shit - TAKE OUT JSON STRINGIFY in gethisweeksl meals
+    console.log(availableWeeks);
+    console.log(availableWeeks[1].dayData);
+    console.log(' --------------------------------------------------')
+
+
+    // Iterate of each week
+    for (let week of availableWeeks) {
+        // console.log(`${week}`);
+        // console.log(`${week.week}`);
+
+        //Iterate through the days of that week
+        for (let day of week.dayData) {
+            // console.log(`${day}`);
+            console.log(`----${day.dayInfo.date}--------`);
+
+            //Iterate through that days meals
+            for (let meal of day.meals) {
+                console.log(`${meal.mealURL}`);
+            }
+        }
+    }
+
+
+
 
 }
 
@@ -95,6 +119,7 @@ async function getAvailableWeeksFromMenu(page) {
 }
 
 
+
 async function getThisWeeksMeals(page) {
     const SELECTORS = webdata.pages.MEAL_PLANS.selectors;
 
@@ -108,39 +133,31 @@ async function getThisWeeksMeals(page) {
             // Check to see that the row contains a Meal Day (NOTE: at the moment the first row DOES NOT, first row is a header row)
             if (row.querySelector(SELECTORS.MEAL_DAY_SELECTOR)) {
 
-                // MEAL SECTION DATA
+                // GET DATE SECTION DATA
                 daySectionData = {
                     // sectionHTML: row.querySelector(MEAL_SECTION_SELECTOR).outerHTML,
-                    mealDay: row.querySelector(SELECTORS.MEAL_DAY_SELECTOR).innerHTML,
-                    mealDate: row.querySelector(SELECTORS.MEAL_DATE_SELECTOR).innerHTML
+                    day: row.querySelector(SELECTORS.MEAL_DAY_SELECTOR).innerHTML,
+                    date: row.querySelector(SELECTORS.MEAL_DATE_SELECTOR).innerHTML
                 }
 
                 // MEALS FOR THE DAY DATA
-                // Get all the Meal rows for the day, Iterate over it to extract the meals
+                // Get all the Meal rows for the day, then iterate over it to extract each meal
                 let mealRowsForDay = row.querySelector(SELECTORS.MEAL_ROW_SELECTOR);
                 let mealDetails = mealRowsForDay.querySelectorAll(SELECTORS.MEAL_DETAILS_SELECTOR);
                 let mealsForTheDay = []
                 for (const mealData of mealDetails) {
+                    // Push the Meal onto the list of Meals for the Day
                     mealsForTheDay.push({
-                        mealCategory: mealData.querySelector(SELECTORS.MEAL_CATEGORY_SELECTOR).innerHTML.trim(),
-                        mealTitle: mealData.querySelector(SELECTORS.MEAL_TITLE_SELECTOR).innerText,
-                        mealLink: mealData.querySelector(SELECTORS.MEAL_LINK_SELECTOR).getAttribute('href')
+                        category: mealData.querySelector(SELECTORS.MEAL_CATEGORY_SELECTOR).innerHTML.trim(),
+                        title: mealData.querySelector(SELECTORS.MEAL_TITLE_SELECTOR).innerText,
+                        mealURL: mealData.querySelector(SELECTORS.MEAL_LINK_SELECTOR).getAttribute('href')
                     })
                 }
 
-                // Put all the meals for the day into a Data Object
-                dayMealData = {
-                    // mealsForDayHTML: row.querySelector(MEAL_ROW_SELECTOR).outerHTML,
-                    meals: mealsForTheDay
-                }
-                
-                // Put the Extracted Data into a Meals for the Day Object and add it to our data
+                // Put all extracted data onto a data object, push it to the data object to be returned
                 data.push({
-                    // rowHTML: row.outerHTML                
-                    mealsForDay : {
-                        section: JSON.stringify(daySectionData),
-                        meals: JSON.stringify(dayMealData)
-                    }
+                        dayInfo: daySectionData,
+                        meals: mealsForTheDay
                 });
             } 
         };
@@ -153,29 +170,4 @@ async function getThisWeeksMeals(page) {
 }
 
 
-
-
-
-// TEST STUFF
-
-// async function testScrape() {
-//     //Launching non-headless for visual debugging
-//     const browser = await puppeteer.launch({
-//         headless: false
-//     });
-
-//     // BROWSE TO TEST PAGE
-//     const page = await browser.newPage();
-//     // await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/test.html');
-//     await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/sample-weekly-menu.html');
-
-//     const availableWeeks = await getAvailableWeeksFromMenu(page);
-//     console.log(availableWeeks);
-// }
-
-// END TEST STUFF
-
-
-
-// testScrape();
 run();
