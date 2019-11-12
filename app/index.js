@@ -28,31 +28,40 @@ async function run() {
     // Get the Basic Meal Data for each Week
     const weeklyData = await getWeeklyData(page, availableWeeks, PAGE_DATA.MEAL_PLANS.SELECTORS);
 
+    const finishedData = await getRecipes(page, weeklyData);
+    console.log('FINISHED')
+    console.log(finishedData[1].dayData[1].meals[1]);
+
+    return;
+
 
  //Now we have the data we need to go get the recipes
-    console.log(weeklyData);
-    console.log(weeklyData[1].dayData);
-    console.log(' --------------------------------------------------')
 
 //FIXME - make a function
     // Iterate of each week
-    for (let week of weeklyData) {
-        // console.log(`${week}`);
-        // console.log(`${week.week}`);
+    // for (let week of weeklyData) {
 
-        //Iterate through the days of that week
-        for (let day of week.dayData) {
-            // console.log(`${day}`);
-            console.log(`----${day.dayInfo.date}--------`);
+    //     //Iterate through the days of that week
+    //     for (let day of week.dayData) {
+    //         console.log(`--------${day.dayInfo.date}--------`);
 
-            //Iterate through that days meals
-            for (let meal of day.meals) {
-                console.log(`${meal.mealURL}`);
-                //Go to Page
-                // await page.goto(meal.mealURL)
-            }
-        }
-    }
+    //         //Iterate through that days meals
+    //         for (let meal of day.meals) {
+    //             console.log(`GETTING ${meal.category}...`)
+
+    //             //Go to Page and get meal
+    //             await page.goto(meal.mealURL);
+    //             meal.recipe = await getMealData(page, PAGE_DATA.MEAL_PAGE.SELECTORS);
+    //             meal.recipe.isLeftover = await(checkLeftover(meal.mealURL));
+    //             console.log(meal.recipe)
+    //         }
+    //     }
+    // }
+
+    // console.log(weeklyData);
+    // console.log(weeklyData[1].dayData);
+    // console.log(weeklyData[1].dayData[1].meals[1]);
+    // console.log(' --------------------------------------------------')
 }
 
 
@@ -181,42 +190,138 @@ async function getThisWeeksMeals(page, SELECTORS) {
 
 
 
+async function getRecipes(page, weeklyData) {
 
-/**** MAIN PROGRAM FLOW ****/
-testScrape();
-// run();
+    for (let week of weeklyData) {
+
+        //Iterate through the days of that week
+        for (let day of week.dayData) {
+            console.log(`--------${day.dayInfo.date}--------`);
+
+            //Iterate through that days meals
+            for (let meal of day.meals) {
+                console.log(`GETTING ${meal.category}...`)
+
+                //Go to Page and get meal
+                await page.goto(meal.mealURL);
+                meal.recipe = await getMealData(page, PAGE_DATA.MEAL_PAGE.SELECTORS);
+                meal.recipe.isLeftover = await(checkLeftover(meal.mealURL));
+                console.log(meal.recipe)
+            }
+        }
+    }
+
+    console.log(weeklyData);
+    console.log(weeklyData[1].dayData);
+    console.log(weeklyData[1].dayData[1].meals[1]);
+    console.log(' --------------------------------------------------')
+
+    return weeklyData;
+
+}
 
 
 
 
+
+
+async function getMealData(page, SELECTORS) {
+    console.log('GETTING MEAL DATA...');
+
+    let mealData = await page.evaluate( (SELECTORS) => {
+        
+        // Grab the current Weeks Meals from the Page
+        const mealTitle = document.querySelector(SELECTORS.MEAL_TITLE_SELECTOR).innerHTML;
+        const servings = document.querySelector(SELECTORS.MEAL_SERVINGS_SELECTOR);
+        const size = document.querySelector(SELECTORS.MEAL_SERVINGS_SIZE_SELECTOR);
+        const ingredientListItems = document.querySelectorAll(SELECTORS.MEAL_INGREDIENT_SELECTOR);
+        const methodSteps = document.querySelectorAll(MEAL_INSTRUCTIONS_SELECTOR);
+        // TODO Get Nutirition Facts
+        
+        // Checking for NULL to avoid ERROR
+        let servingValue;
+        let sizeValue;
+        (servings === null) ? servingValue = 'notFound' : servingValue = servings.innerText.trim();
+        (size === null) ? sizeValue = 'notFound' : sizeValue = size.innerText.trim();
+
+        // Put the ingredients into an Array
+        const mealIngredients = [];
+        if (ingredientListItems.length > 1) {
+            for (const item of ingredientListItems){
+                mealIngredients.push(item.innerText)
+            }
+        } else {
+            mealIngredients.push(ingredientListItems.innerText);
+        }
+
+
+        // Put the steps into an array
+        const steps = [];
+        if (methodSteps.length > 1){
+            for (const step of methodSteps){
+                steps.push(step.innerText)
+            }
+        } else {
+            steps.push(methodSteps.innerText);
+        }
+
+        
+        // Put together the recipe object
+        const recipe = {
+            title: mealTitle,
+            servingsPerRecipe: servingValue,
+            servingsSize: sizeValue,
+            ingredients: mealIngredients,
+            instructions: steps,
+        }
+
+        return recipe;
+    }, SELECTORS);
+
+    return mealData;
+}
+
+async function checkLeftover(url) {
+    let toCheck = url.slice(-9);
+    let isLeftover;
+    (toCheck === 'leftover/') ? isLeftover = true : isLeftover = false;
+
+    return new Promise(resolve => resolve(isLeftover));
+}
 
 
 
 // TEST STUFF
 
-async function testScrape() {
-    //Launching non-headless for visual debugging
-    const browser = await puppeteer.launch({
-        headless: false
-    });
+// async function testScrape() {
+//     //Launching non-headless for visual debugging
+//     const browser = await puppeteer.launch({
+//         headless: false
+//     });
 
-    // BROWSE TO TEST PAGE
-    const page = await browser.newPage();
-    // await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/test.html');
-    // await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/sample-weekly-menu.html');
-    await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/sample-recipe-1.html');
+//     // BROWSE TO TEST PAGE
+//     const page = await browser.newPage();
+//     // await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/sample-recipe-1.html');
+//     await page.goto('C:/Users/Jeff/Desktop/scraper/f45-recipe-scraper/test-data/sample-recipe-2.html');
+//     const url = '/test-data/sample-recipe-2-leftoveRr'
+//     let isLeftover = await checkLeftover(url);
+//     console.log(isLeftover);
 
-    const mealData = await getMealData();
-    console.log(mealData);
-}
-
-async function getMealData(page, SELECTORS) {
-        // Get Meal Title
-        // Get Ingredients
-        // Get Method
-        // Get Servings per recipe
-        // Get Serviing Size
-        // Get Nutirition Facts
-}
-
+//     const mealData = await getMealData(page, PAGE_DATA.MEAL_PAGE.SELECTORS);
+//     console.log('-----------');
+//     console.log(mealData);
+// }
 // END TEST STUFF
+
+
+
+/**** MAIN PROGRAM FLOW ****/
+// testScrape();
+run();
+
+
+
+
+
+
+

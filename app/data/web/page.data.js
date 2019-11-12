@@ -33,5 +33,15 @@ module.exports = {
             MEAL_TITLE_SELECTOR : '.meal_title',
             MEAL_LINK_SELECTOR : '.meal_title a',
         },
+    },
+
+    MEAL_PAGE: {
+        SELECTORS: {
+            MEAL_TITLE_SELECTOR: 'h1.entry-title',
+            MEAL_SERVINGS_SELECTOR: '.servings-per-recipe var',
+            MEAL_SERVINGS_SIZE_SELECTOR: '.servings-size var',
+            MEAL_INGREDIENT_SELECTOR: 'div.ingredients ul li',
+            MEAL_INSTRUCTIONS_SELECTOR: 'div.instructions ol li',
+        }
     }
 }
