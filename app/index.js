@@ -29,41 +29,12 @@ async function run() {
     const weeklyData = await getWeeklyData(page, availableWeeks, PAGE_DATA.MEAL_PLANS.SELECTORS);
 
     const finishedData = await getRecipes(page, weeklyData);
-    console.log('FINISHED')
+    console.log('********* FINISHED *********');
     console.log(finishedData[1].dayData[1].meals[1]);
 
+    await browser.close();
     return;
-
-
- //Now we have the data we need to go get the recipes
-
-//FIXME - make a function
-    // Iterate of each week
-    // for (let week of weeklyData) {
-
-    //     //Iterate through the days of that week
-    //     for (let day of week.dayData) {
-    //         console.log(`--------${day.dayInfo.date}--------`);
-
-    //         //Iterate through that days meals
-    //         for (let meal of day.meals) {
-    //             console.log(`GETTING ${meal.category}...`)
-
-    //             //Go to Page and get meal
-    //             await page.goto(meal.mealURL);
-    //             meal.recipe = await getMealData(page, PAGE_DATA.MEAL_PAGE.SELECTORS);
-    //             meal.recipe.isLeftover = await(checkLeftover(meal.mealURL));
-    //             console.log(meal.recipe)
-    //         }
-    //     }
-    // }
-
-    // console.log(weeklyData);
-    // console.log(weeklyData[1].dayData);
-    // console.log(weeklyData[1].dayData[1].meals[1]);
-    // console.log(' --------------------------------------------------')
 }
-
 
 async function login(page) {
     console.log('LOGGING IN...');
