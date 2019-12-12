@@ -1,6 +1,9 @@
 // Import Puppeteer
 const puppeteer = require('puppeteer');
 
+// For Writing Data
+const fs = require('fs');
+
 //Import Data files
 const CREDENTIALS = require('./data/credentials/credentials');
 const PAGE_DATA = require('./data/web/page.data');
@@ -33,6 +36,14 @@ async function run() {
     console.log(finishedData[1].dayData[1].meals[1]);
 
     await browser.close();
+
+    //Write Data
+    fs.writeFile(
+        './json/f45-recipes.json',
+        JSON.stringify(finishedData, null, 2),            // addtional params for nice formatting
+        (err) => err ? console.error('Data not written', err) : console.log('********* FINISHED *********')
+    );
+    
     return;
 }
 
@@ -203,17 +214,42 @@ async function getMealData(page, SELECTORS) {
         
         // Grab the current Weeks Meals from the Page
         const mealTitle = document.querySelector(SELECTORS.MEAL_TITLE_SELECTOR).innerHTML;
+        
         const servings = document.querySelector(SELECTORS.MEAL_SERVINGS_SELECTOR);
         const size = document.querySelector(SELECTORS.MEAL_SERVINGS_SIZE_SELECTOR);
+        const avgPerServeHeader = document.querySelector(SELECTORS.MEAL_NUTRITION_HEADER_COL2);
+        const avgPer100gHeader = document.querySelector(SELECTORS.MEAL_NUTRITION_HEADER_COL3);
+        const dataDescriptions = document.querySelectorAll(SELECTORS.MEAL_NUTRITION_DATA_COL1);
+        const perServeData = document.querySelectorAll(SELECTORS.MEAL_NUTRITION_DATA_COL2);
+        const per100gData = document.querySelectorAll(SELECTORS.MEAL_NUTRITION_DATA_COL3);
         const ingredientListItems = document.querySelectorAll(SELECTORS.MEAL_INGREDIENT_SELECTOR);
-        const methodSteps = document.querySelectorAll(MEAL_INSTRUCTIONS_SELECTOR);
-        // TODO Get Nutirition Facts
+        const methodSteps = document.querySelectorAll(SELECTORS.MEAL_INSTRUCTIONS_SELECTOR);
         
         // Checking for NULL to avoid ERROR
         let servingValue;
         let sizeValue;
         (servings === null) ? servingValue = 'notFound' : servingValue = servings.innerText.trim();
         (size === null) ? sizeValue = 'notFound' : sizeValue = size.innerText.trim();
+        // TODO - may need to check for empty nutrition values
+
+        // WIP
+        const nutritionFactsAOA = []
+        // Create Nutrition Header Row and push it onto the AOA
+        let perServeHeader;
+        let per100gHeader;
+        (avgPerServeHeader === null) ? perServeHeader = 'notFound' : perServeHeader = avgPerServeHeader.innerText.trim();
+        (avgPerServeHeader === null) ? per100gHeader = 'notFound' : per100gHeader = avgPer100gHeader.innerText.trim();
+        const headerRow = ['', perServeHeader, per100gHeader];
+        nutritionFactsAOA.push(headerRow);
+       
+        // Push the Data Rows onto the AOA
+        if (dataDescriptions.length > 1) {
+            dataDescriptions.forEach((description, i) => {
+                let dataRow = [description.innerText, perServeData[i].innerText, per100gData[i].innerText];
+                nutritionFactsAOA.push(dataRow);
+            });
+        }
+        
 
         // Put the ingredients into an Array
         const mealIngredients = [];
@@ -242,6 +278,7 @@ async function getMealData(page, SELECTORS) {
             title: mealTitle,
             servingsPerRecipe: servingValue,
             servingsSize: sizeValue,
+            nutritionalFacts: nutritionFactsAOA,
             ingredients: mealIngredients,
             instructions: steps,
         }

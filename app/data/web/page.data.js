@@ -40,8 +40,15 @@ module.exports = {
             MEAL_TITLE_SELECTOR: 'h1.entry-title',
             MEAL_SERVINGS_SELECTOR: '.servings-per-recipe var',
             MEAL_SERVINGS_SIZE_SELECTOR: '.servings-size var',
+            // MEAL_NUTRITION_HEADER_COL1: 'div.nutrients-chart table thead th:nth-child(1)',        // Placeholder; Generally Blank
+            MEAL_NUTRITION_HEADER_COL2: 'div.nutrients-chart table thead th:nth-child(2)',           // Quantity per serve
+            MEAL_NUTRITION_HEADER_COL3: 'div.nutrients-chart table thead th:nth-child(3)',           // Quantity per 100g
+            MEAL_NUTRITION_DATA_COL1: 'div.nutrients-chart table tbody tr td:nth-child(1)',          // Catagory/Type of Data 
+            MEAL_NUTRITION_DATA_COL2: 'div.nutrients-chart table tbody tr td:nth-child(2)',          // Data 
+            MEAL_NUTRITION_DATA_COL3: 'div.nutrients-chart table tbody tr td:nth-child(3)',          // Data   
             MEAL_INGREDIENT_SELECTOR: 'div.ingredients ul li',
             MEAL_INSTRUCTIONS_SELECTOR: 'div.instructions ol li',
+
         }
     }
 }
