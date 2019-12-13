@@ -9,6 +9,18 @@ module.exports = {
         }
     },
 
+    PROFILE: {
+        URL: 'https://f45challenge.com/profile/',
+        SELECTORS: {
+            MALE_BUTTON_SELECTOR: 'ul.list-table li div label[for="_mgm_cf_gender1"]',
+            FEMALE_BUTTON_SELECTOR: 'ul.list-table li div label[for="_mgm_cf_gender2"]',
+            MAINSTREAM_DIET_SELECTOR: 'div.meal_type label[for="_mgm_cf_meal_1"]',
+            VEGETARIAN_DIET_SELECTOR: 'div.meal_type label[for="_mgm_cf_meal_2"]',
+            VEGAN_DIET_SELECTOR: 'div.meal_type label[for="_mgm_cf_meal_3"]',
+            SUBMIT_BUTTON_SELECTOR: 'p.form_submit input[type="submit"] '
+        }
+    },
+
     MEAL_PLANS: {
         URL: 'https://f45challenge.com/meals-plans/',
         SELECTORS: {

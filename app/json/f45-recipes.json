@@ -14,7 +14,7 @@
             "category": "breakfast",
             "title": "Poached Eggs with Tomato and Basil Bruschetta",
             "mealURL": "https://f45challenge.com/recipe-list/poached-eggs-with-tomato-and-basil-bruschetta/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Poached Eggs with Tomato and Basil Bruschetta",
               "servingsPerRecipe": "1",
               "servingsSize": "392.4g",
@@ -80,15 +80,83 @@
                 "Transfer the bruschetta into the bowl with the poached eggs",
                 "Sprinkle the feta over the bruschetta and season with Himalayan salt and pepper",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Poached Eggs with Tomato and Basil Bruschetta",
+              "servingsPerRecipe": "1",
+              "servingsSize": "347.8g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "411 cal",
+                  "118 cal"
+                ],
+                [
+                  "Protein",
+                  "19.6g",
+                  "5.6g"
+                ],
+                [
+                  "Fat, total",
+                  "33.5g",
+                  "9.6g"
+                ],
+                [
+                  "- saturated",
+                  "12.3g",
+                  "3.5g"
+                ],
+                [
+                  "Carbohydrate",
+                  "4.9g",
+                  "1.4g"
+                ],
+                [
+                  "- sugars",
+                  "4.4g",
+                  "1.3g"
+                ],
+                [
+                  "Sodium",
+                  "530mg",
+                  "152mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 (80g) free-range eggs",
+                "100g tomato, diced",
+                "30g red onion, diced",
+                "50g avocado, chopped",
+                "10g fresh basil, chopped",
+                "50g feta cheese",
+                "1 garlic clove, crushed",
+                "30ml balsamic vinegar",
+                "10ml olive oil",
+                "30ml white vinegar"
+              ],
+              "instructions": [
+                "Bring water and vinegar to boil in a saucepan over medium heat",
+                "Using a wooden spoon, stir the water creating a whirlpool. Crack the eggs into the water and cook for 3 minutes",
+                "Once cooked, use a slotted spoon and remove the eggs from the water and transfer to a bowl. Add the avocado beside the poached eggs",
+                "In a separate bowl, combine the tomato, onion, basil, and garlic. Pour the olive oil and vinegar over the top and combine",
+                "Transfer the bruschetta into the bowl with the poached eggs",
+                "Sprinkle the feta over the bruschetta and season with Himalayan salt and pepper",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Raw Energy Seed Bar",
             "mealURL": "https://f45challenge.com/recipe-list/raw-energy-seeded-bar/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Raw Energy Seed Bar",
               "servingsPerRecipe": "5",
               "servingsSize": "71.5g",
@@ -153,15 +221,82 @@
                 "Transfer the mixture into a tray and press down firmly with a 2cm thickness in a rectangle",
                 "Refrigerate for up to 1-hour to set",
                 "Cut the bar into 5 slices. Serve 1 bar and refrigerate the remaining 5 bars to be consumed over the week."
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Raw Energy Seed Bar",
+              "servingsPerRecipe": "5",
+              "servingsSize": "50.5g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "217 cal",
+                  "430 cal"
+                ],
+                [
+                  "Protein",
+                  "5.8g",
+                  "11.4g"
+                ],
+                [
+                  "Fat, total",
+                  "14.7g",
+                  "29.2g"
+                ],
+                [
+                  "- saturated",
+                  "3.3g",
+                  "6.5g"
+                ],
+                [
+                  "Carbohydrate",
+                  "14.4g",
+                  "28.5g"
+                ],
+                [
+                  "- sugars",
+                  "7.5g",
+                  "14.8g"
+                ],
+                [
+                  "Sodium",
+                  "4mg",
+                  "8mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "60g dried prunes",
+                "40g rolled oats",
+                "25g unsalted almond butter",
+                "20g sunflower seeds",
+                "40g raw, unsalted almonds",
+                "10g sesame seeds",
+                "10g pumpkin seeds",
+                "20g shredded coconut",
+                "20g rice malt syrup",
+                "2 tbsp. water",
+                "1 tsp. cinnamon"
+              ],
+              "instructions": [
+                "Soak the prunes in water for 5 minutes. Once the prunes become soft, drain the water. Transfer the soaked prunes to a food processor",
+                "Add the oats, almond butter, all the seeds, coconut, rice malt syrup, almonds, water and cinnamon into the food processor. Process until the ingredients are combined and the mixture forms into a ball",
+                "Transfer the mixture into a tray and press down firmly with a 2cm thickness in a rectangle",
+                "Refrigerate for up to 1-hour to set",
+                "Cut the bar into 5 slices. Serve 1 bar and refrigerate the remaining 5 bars to be consumed over the week."
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Zesty Salmon and Zucchini Noodle Bowl",
             "mealURL": "https://f45challenge.com/recipe-list/salmon-and-ricotta-zoodles/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Zesty Salmon and Zucchini Noodle Bowl",
               "servingsPerRecipe": "2",
               "servingsSize": "571.9g",
@@ -226,15 +361,82 @@
                 "In a separate fry pan over medium heat cook the salmon with lemon juice for 2-3 minutes on each side, or until cooked to liking",
                 "Once cooked, mix the salmon through the dish. Season with Himalayan salt and pepper",
                 "Divide the meal into two serves. Dish one serving in a bowl and refrigerate the second meal for tomorrow’s leftover"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Zesty Salmon and Zucchini Noodle Bowl",
+              "servingsPerRecipe": "2",
+              "servingsSize": "499.6g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "421 cal",
+                  "84 cal"
+                ],
+                [
+                  "Protein",
+                  "39.4g",
+                  "7.9g"
+                ],
+                [
+                  "Fat, total",
+                  "24.8g",
+                  "5.0g"
+                ],
+                [
+                  "- saturated",
+                  "6.0g",
+                  "1.2g"
+                ],
+                [
+                  "Carbohydrate",
+                  "6.8g",
+                  "1.4g"
+                ],
+                [
+                  "- sugars",
+                  "6.4g",
+                  "1.3g"
+                ],
+                [
+                  "Sodium",
+                  "101mg",
+                  "20mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "200g uncooked salmon fillet, chopped",
+                "450g zucchini spirals",
+                "100g cherry tomatoes",
+                "20g basil leaves, chopped",
+                "40g spring onion, finely chopped",
+                "1 small chili, finely chopped",
+                "1 garlic clove, crushed",
+                "10g pine nuts",
+                "1/2 lemon, freshly squeezed",
+                "60g ricotta cheese",
+                "10ml olive oil"
+              ],
+              "instructions": [
+                "Heat olive oil in a large fry pan over medium temperature and saute the spring onion and garlic for a few minutes",
+                "Mix in the zucchini spirals, basil, chili, pine nuts, ricotta cheese and cherry tomatoes and cook for 5-7 minutes, stirring occasionally",
+                "In a separate fry pan over medium heat cook the salmon with lemon juice for 2-3 minutes on each side, or until cooked to liking",
+                "Once cooked, mix the salmon through the dish. Season with Himalayan salt and pepper",
+                "Divide the meal into two serves. Dish one serving in a bowl and refrigerate the second meal for tomorrow’s leftover"
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Crunchy Protein Shake",
             "mealURL": "https://f45challenge.com/recipe-list/crunchy-protein-shake/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Crunchy Protein Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "295g",
@@ -289,15 +491,72 @@
               "instructions": [
                 "Add all the ingredients in a protein shaker and shake until combined",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Crunchy Protein Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "285g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "231 cal",
+                  "81 cal"
+                ],
+                [
+                  "Protein",
+                  "16.2g",
+                  "5.7g"
+                ],
+                [
+                  "Fat, total",
+                  "12.9g",
+                  "4.5g"
+                ],
+                [
+                  "- saturated",
+                  "1.2g",
+                  "0.4g"
+                ],
+                [
+                  "Carbohydrate",
+                  "11.9g",
+                  "4.2g"
+                ],
+                [
+                  "- sugars",
+                  "1.5g",
+                  "0.5g"
+                ],
+                [
+                  "Sodium",
+                  "454mg",
+                  "159mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "15g vanilla protein powder",
+                "10g buckinis (activated buckwheat)",
+                "10g chopped raw, unsalted almonds",
+                "250ml unsweetened almond milk"
+              ],
+              "instructions": [
+                "Add all the ingredients in a protein shaker and shake until combined",
+                "Serve"
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Greek Mezze Board",
             "mealURL": "https://f45challenge.com/recipe-list/greek-mezze-board/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Greek Mezze Board",
               "servingsPerRecipe": "1",
               "servingsSize": "640g",
@@ -367,8 +626,80 @@
                 "To make the tzatziki, add the cucumber, yoghurt, garlic, mint and salt in a small bowl. Add the bowl to the mezze board",
                 "Add the black olives, tomato and capsicum to the board without combining the ingredients together",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Greek Mezze Board",
+              "servingsPerRecipe": "1",
+              "servingsSize": "548.4g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "428 cal",
+                  "78 cal"
+                ],
+                [
+                  "Protein",
+                  "40.3g",
+                  "7.4g"
+                ],
+                [
+                  "Fat, total",
+                  "21.0g",
+                  "3.8g"
+                ],
+                [
+                  "- saturated",
+                  "10.6g",
+                  "1.9g"
+                ],
+                [
+                  "Carbohydrate",
+                  "15.0g",
+                  "2.7g"
+                ],
+                [
+                  "- sugars",
+                  "14.0g",
+                  "2.6g"
+                ],
+                [
+                  "Sodium",
+                  "1870mg",
+                  "341mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "50g halloumi cheese, sliced",
+                "20g black olives",
+                "100g tomato, chopped",
+                "100g capsicum, sliced",
+                "40g cucumber, grated",
+                "60g Greek yoghurt",
+                "1 garlic clove",
+                "2 tsp. dried mint",
+                "Himalayan salt",
+                "1/2 lemon freshly squeezed",
+                "100g uncooked chicken breast, chopped",
+                "2 tsp. dried oregano",
+                "1 garlic clove, crushed",
+                "Pepper",
+                "skewers"
+              ],
+              "instructions": [
+                "Begin marinating the chicken skewers by combining the chicken, lemon juice, oregano and garlic in a bowl. Season with pepper. Cover with glad wrap and refrigerate for half an hour. Once marinated, thread the chicken onto the skewers",
+                "Heat a barbecue grill and cook the chicken for 8-10 minutes, turning occasionally to ensure all sides of the chicken are cooked. Once cooked add the skewers onto a serving board",
+                "Heat a non-stick fry pan over medium temperature and cook the halloumi for 3 minutes on each side or until golden brown. Add the halloumi beside the chicken skewers",
+                "To make the tzatziki, add the cucumber, yoghurt, garlic, mint and salt in a small bowl. Add the bowl to the mezze board",
+                "Add the black olives, tomato and capsicum to the board without combining the ingredients together",
+                "Serve"
+              ]
             }
           }
         ]
@@ -383,7 +714,7 @@
             "category": "breakfast",
             "title": "Roast Vegetable Omelette",
             "mealURL": "https://f45challenge.com/recipe-list/roast-vegetable-omelette/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Roast Vegetable Omelette",
               "servingsPerRecipe": "1",
               "servingsSize": "510g",
@@ -453,15 +784,87 @@
                 "Fold one half of the omelette over enclosing the filling",
                 "Serve the omelette on a plate",
                 "Toast the bread until liking and serve beside the omelette"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Roast Vegetable Omelette",
+              "servingsPerRecipe": "1",
+              "servingsSize": "415g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "411 cal",
+                  "99 cal"
+                ],
+                [
+                  "Protein",
+                  "27.8g",
+                  "6.7g"
+                ],
+                [
+                  "Fat, total",
+                  "19.0g",
+                  "4.6g"
+                ],
+                [
+                  "- saturated",
+                  "8.2g",
+                  "2.0g"
+                ],
+                [
+                  "Carbohydrate",
+                  "29.4g",
+                  "7.1g"
+                ],
+                [
+                  "- sugars",
+                  "10.5g",
+                  "2.5g"
+                ],
+                [
+                  "Sodium",
+                  "673mg",
+                  "162mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 free range eggs",
+                "1 gluten free bread slice",
+                "1/3 red onion, chopped",
+                "60g pumpkin, chopped",
+                "60g sweet potato, chopped",
+                "100g mushrooms, chopped",
+                "30g feta cheese, crumbled",
+                "Himalayan salt and pepper",
+                "5g dried rosemary",
+                "1 garlic clove, crushed",
+                "1 tsp. extra virgin olive oil"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees and line a baking tray with baking paper",
+                "Boil water in a small saucepan over medium heat and cook the pumpkin and sweet potato for 8 minutes. Drain the water",
+                "Add the pumpkin and sweet potato to the tray and sprinkle rosemary, Himalayan salt, and pepper over the top. Spread the garlic over the top. Bake the pumpkin and sweet potato in the oven for 15-20 minutes or until golden brown",
+                "Crack eggs in a bowl and whisk vigorously",
+                "Heat olive oil in a non-stick fry pan over medium heat and saute the onion and mushroom for a few minutes",
+                "Pour the egg into the frying pan and cook for a few minutes or until the egg mixture begins to set underneath",
+                "Add the roasted pumpkin and sweet potato to the middle of the omelette and sprinkle the feta cheese over the top",
+                "Fold one half of the omelette over enclosing the filling",
+                "Serve the omelette on a plate",
+                "Toast the bread until liking and serve beside the omelette"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Sweet Potato Hummus and Carrot Sticks",
             "mealURL": "https://f45challenge.com/recipe-list/sweet-potato-hummus-and-carrot-sticks/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Sweet Potato Hummus and Carrot Sticks",
               "servingsPerRecipe": "2",
               "servingsSize": "358.8g",
@@ -526,15 +929,82 @@
                 "In a food processor, add the chickpeas, sweet potato, olive oil, water, lemon juice, tahini, garlic, cumin, and paprika. Process until a smooth consistency is formed. Divide the sweet potato and hummus dip into two serves",
                 "Dish one serving of the sweet potato and hummus dip with half of the carrot sticks",
                 "Refrigerate the second serve for tomorrow’s leftover"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Sweet Potato Hummus and Carrot Sticks",
+              "servingsPerRecipe": "2",
+              "servingsSize": "306.3g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "273 cal",
+                  "89 cal"
+                ],
+                [
+                  "Protein",
+                  "8.9g",
+                  "2.9g"
+                ],
+                [
+                  "Fat, total",
+                  "11.3g",
+                  "3.7g"
+                ],
+                [
+                  "- saturated",
+                  "1.4g",
+                  "0.5g"
+                ],
+                [
+                  "Carbohydrate",
+                  "27.3g",
+                  "8.9g"
+                ],
+                [
+                  "- sugars",
+                  "11.5g",
+                  "3.8g"
+                ],
+                [
+                  "Sodium",
+                  "260mg",
+                  "85mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "100g uncooked sweet potato, skin removed and chopped",
+                "150g canned chickpeas, rinsed and drained",
+                "10ml olive oil",
+                "20ml lemon juice",
+                "40ml water",
+                "Himalayan salt",
+                "15g tahini",
+                "1 garlic clove, crushed",
+                "1 tsp. cumin",
+                "1 tsp. paprika",
+                "300g carrot sticks"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees. Line a baking tray with baking paper",
+                "Place the sweet potato onto the tray and bake in the oven for 20 minutes. Once cooked set aside to cool",
+                "In a food processor, add the chickpeas, sweet potato, olive oil, water, lemon juice, tahini, garlic, cumin, and paprika. Process until a smooth consistency is formed. Divide the sweet potato and hummus dip into two serves",
+                "Dish one serving of the sweet potato and hummus dip with half of the carrot sticks",
+                "Refrigerate the second serve for tomorrow’s leftover"
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Zesty Salmon and Zucchini Noodle Bowl (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/zesty-salmon-and-zucchini-noodle-bowl-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Zesty Salmon and Zucchini Noodle Bowl ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -550,15 +1020,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Zesty Salmon and Zucchini Noodle Bowl ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Raw Energy Seed Bar (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/raw-energy-seeded-bar-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Raw Energy Seed Bar ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -574,15 +1062,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Raw Energy Seed Bar ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Quinoa And Chicken Pilaf",
             "mealURL": "https://f45challenge.com/recipe-list/quinoa-and-chicken-pilaf/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Quinoa And Chicken Pilaf",
               "servingsPerRecipe": "2",
               "servingsSize": "374.4g",
@@ -644,8 +1150,72 @@
                 "Add the quinoa, water, and green peas and cook for a further 15 minutes or until the chicken is cooked. Season with Himalayan salt and pepper. Remove from the heat.",
                 "Divide the meal into two serves",
                 "Dish one serving in a bowl and refrigerate the second meal as a leftover"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Quinoa And Chicken Pilaf",
+              "servingsPerRecipe": "2",
+              "servingsSize": "339.4g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "400 cal",
+                  "117 cal"
+                ],
+                [
+                  "Protein",
+                  "37.2g",
+                  "11.0g"
+                ],
+                [
+                  "Fat, total",
+                  "11.5g",
+                  "3.4g"
+                ],
+                [
+                  "- saturated",
+                  "7.1g",
+                  "2.1g"
+                ],
+                [
+                  "Carbohydrate",
+                  "33.1g",
+                  "9.8g"
+                ],
+                [
+                  "- sugars",
+                  "7.4g",
+                  "2.2g"
+                ],
+                [
+                  "Sodium",
+                  "78mg",
+                  "23mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "75g uncooked, quinoa",
+                "250g raw chicken breast, chopped",
+                "70g red capsicum, diced",
+                "75g frozen green peas",
+                "90g carrot, diced",
+                "70g brown onion, diced",
+                "1 tbsp. coconut oil",
+                "2 garlic cloves, crushed",
+                "250ml filtered water"
+              ],
+              "instructions": [
+                "Heat coconut oil in a large saucepan over medium heat and cook the chicken with onion and garlic for 2 minutes. Mix in the capsicum and carrot and saute for a minute or two",
+                "Add the quinoa, water, and green peas and cook for a further 15 minutes or until the chicken is cooked. Season with Himalayan salt and pepper. Remove from the heat.",
+                "Divide the meal into two serves",
+                "Dish one serving in a bowl and refrigerate the second meal as a leftover"
+              ]
             }
           }
         ]
@@ -660,7 +1230,7 @@
             "category": "breakfast",
             "title": "Triple Choc Shake",
             "mealURL": "https://f45challenge.com/recipe-list/triple-choc-shake/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Triple Choc Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "478g",
@@ -719,15 +1289,76 @@
                 "Add all the ingredients into a blender and blend until a smooth consistency is formed",
                 "Pour the smoothie into a large glass",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Triple Choc Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "411g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "407 cal",
+                  "98 cal"
+                ],
+                [
+                  "Protein",
+                  "31.4g",
+                  "7.6g"
+                ],
+                [
+                  "Fat, total",
+                  "12.4g",
+                  "3.0g"
+                ],
+                [
+                  "- saturated",
+                  "4.8g",
+                  "1.2g"
+                ],
+                [
+                  "Carbohydrate",
+                  "43.0g",
+                  "10.5g"
+                ],
+                [
+                  "- sugars",
+                  "22.8g",
+                  "5.6g"
+                ],
+                [
+                  "Sodium",
+                  "403mg",
+                  "98mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "150g frozen banana",
+                "8g cacao powder",
+                "30g chocolate protein powder",
+                "10g cacao nibs",
+                "80g coconut yoghurt",
+                "180ml almond milk",
+                "1 cup ice"
+              ],
+              "instructions": [
+                "Add all the ingredients into a blender and blend until a smooth consistency is formed",
+                "Pour the smoothie into a large glass",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Raw Energy Seed Bar (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/raw-energy-seeded-bar-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Raw Energy Seed Bar ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -743,15 +1374,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Raw Energy Seed Bar ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Naked Turkey Burrito Bowl",
             "mealURL": "https://f45challenge.com/recipe-list/naked-turkey-burrito-bowl/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Naked Turkey Burrito Bowl",
               "servingsPerRecipe": "2",
               "servingsSize": "465.4g",
@@ -820,15 +1469,86 @@
                 "Combine the avocado, lemon juice, Himalayan salt and pepper in a bowl",
                 "Divide the cooked turkey mince, avocado smash, shallots, corn, black beans, lettuce, cherry tomatoes and lemon wedge between two bowls without mixing the ingredients together",
                 "Serve one bowl and refrigerate the second meal for tomorrow’s lunch"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Naked Turkey Burrito Bowl",
+              "servingsPerRecipe": "2",
+              "servingsSize": "390.4g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "414 cal",
+                  "447 cal"
+                ],
+                [
+                  "Protein",
+                  "11.8g",
+                  "9.1g"
+                ],
+                [
+                  "Fat, total",
+                  "22.4g",
+                  "5.2g"
+                ],
+                [
+                  "- saturated",
+                  "2.2g",
+                  "1.1g"
+                ],
+                [
+                  "Carbohydrate",
+                  "19.9g",
+                  "4.6g"
+                ],
+                [
+                  "- sugars",
+                  "2.8g",
+                  "0.9g"
+                ],
+                [
+                  "Sodium",
+                  "335mg",
+                  "95mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "250g raw turkey mince",
+                "80g frozen corn kernels, thawed",
+                "8 cherry tomatoes, chopped in half",
+                "100g lettuce, shredded",
+                "2 shallots, chopped",
+                "120g canned black beans, rinsed and drained",
+                "80g avocado, mashed",
+                "45ml freshly squeezed lemon juice",
+                "1 tbsp. (15ml) extra virgin olive oil",
+                "2 lemon wedges",
+                "1 garlic clove, crushed",
+                "1 tsp. cumin",
+                "1 tsp. paprika",
+                "1 tsp. oregano",
+                "pinch chilli powder",
+                "Himalayan salt and pepper"
+              ],
+              "instructions": [
+                "Heat olive oil in a non-stick fry pan over medium heat and cook the turkey mince with garlic, cumin, paprika, oregano and chilli powder for 7 minutes or until the turkey is cooked, stirring occasionally. Once cooked remove from the heat",
+                "Combine the avocado, lemon juice, Himalayan salt and pepper in a bowl",
+                "Divide the cooked turkey mince, avocado smash, shallots, corn, black beans, lettuce, cherry tomatoes and lemon wedge between two bowls without mixing the ingredients together",
+                "Serve one bowl and refrigerate the second meal for tomorrow’s lunch"
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Sweet Potato Hummus and Carrot Sticks (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/sweet-potato-hummus-and-carrot-sticks-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Sweet Potato Hummus and Carrot Sticks ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -844,15 +1564,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Sweet Potato Hummus and Carrot Sticks ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Quinoa And Chicken Pilaf (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/quinoa-and-chicken-pilaf-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Quinoa And Chicken Pilaf ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -868,8 +1606,26 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Quinoa And Chicken Pilaf ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           }
         ]
@@ -884,7 +1640,7 @@
             "category": "breakfast",
             "title": "Baked Beans And Avocado On Toast",
             "mealURL": "https://f45challenge.com/recipe-list/baked-beans-and-avocado-on-toast/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Baked Beans And Avocado On Toast",
               "servingsPerRecipe": "1",
               "servingsSize": "664.5g",
@@ -947,15 +1703,80 @@
                 "Whilst the baked beans are cooking, toast the bread slice and place on a plate",
                 "Pour the baked beans over the toast and evenly layer the chopped avocado on top",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Baked Beans And Avocado On Toast",
+              "servingsPerRecipe": "1",
+              "servingsSize": "524.5g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "407 cal",
+                  "77 cal"
+                ],
+                [
+                  "Protein",
+                  "14.3g",
+                  "2.7g"
+                ],
+                [
+                  "Fat, total",
+                  "16.0g",
+                  "3.0g"
+                ],
+                [
+                  "- saturated",
+                  "3.2g",
+                  "0.6g"
+                ],
+                [
+                  "Carbohydrate",
+                  "43.2g",
+                  "8.2g"
+                ],
+                [
+                  "- sugars",
+                  "16.7g",
+                  "3.2g"
+                ],
+                [
+                  "Sodium",
+                  "592mg",
+                  "113mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "250g canned diced tomatoes (no added sugar and salt)",
+                "60g canned kidney beans, drained and rinsed",
+                "60g canned cannellini beans, drained and rinsed",
+                "20g red onion, chopped",
+                "50g carrot, diced",
+                "1 tsp. extra virgin coconut oil",
+                "1 garlic clove, crushed",
+                "1 slice (35g) gluten-free bread",
+                "40g avocado, diced"
+              ],
+              "instructions": [
+                "Heat coconut oil in a non-stick fry pan over medium heat and saute the onion, carrot, and garlic in the pan for a few minutes",
+                "Add the canned tomatoes and beans and season with Himalayan salt and pepper. Simmer for 10 minutes over low-medium heat",
+                "Whilst the baked beans are cooking, toast the bread slice and place on a plate",
+                "Pour the baked beans over the toast and evenly layer the chopped avocado on top",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Crunchy Protein Shake",
             "mealURL": "https://f45challenge.com/recipe-list/crunchy-protein-shake/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Crunchy Protein Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "295g",
@@ -1010,15 +1831,72 @@
               "instructions": [
                 "Add all the ingredients in a protein shaker and shake until combined",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Crunchy Protein Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "285g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "231 cal",
+                  "81 cal"
+                ],
+                [
+                  "Protein",
+                  "16.2g",
+                  "5.7g"
+                ],
+                [
+                  "Fat, total",
+                  "12.9g",
+                  "4.5g"
+                ],
+                [
+                  "- saturated",
+                  "1.2g",
+                  "0.4g"
+                ],
+                [
+                  "Carbohydrate",
+                  "11.9g",
+                  "4.2g"
+                ],
+                [
+                  "- sugars",
+                  "1.5g",
+                  "0.5g"
+                ],
+                [
+                  "Sodium",
+                  "454mg",
+                  "159mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "15g vanilla protein powder",
+                "10g buckinis (activated buckwheat)",
+                "10g chopped raw, unsalted almonds",
+                "250ml unsweetened almond milk"
+              ],
+              "instructions": [
+                "Add all the ingredients in a protein shaker and shake until combined",
+                "Serve"
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Naked Turkey Burrito Bowl (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/naked-turkey-burrito-bowl-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Naked Turkey Burrito Bowl ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -1034,15 +1912,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Naked Turkey Burrito Bowl ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Raw Energy Seed Bar (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/raw-energy-seeded-bar-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Raw Energy Seed Bar ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -1058,15 +1954,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Raw Energy Seed Bar ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Lamb Cutlets with Roasted Vegetables",
             "mealURL": "https://f45challenge.com/recipe-list/lamb-cutlets-with-roasted-vegetables/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Lamb Cutlets with Roasted Vegetables",
               "servingsPerRecipe": "2",
               "servingsSize": "620.8g",
@@ -1137,8 +2051,81 @@
                 "Whilst the vegetables are baking, in a bowl marinate the lamb chops with oil, rosemary, garlic, and lemon juice",
                 "Heat a barbecue and cook the lamb chops for a few minutes on each side or until cooked to liking",
                 "Divide the lamb chops and vegetables between two plates. Dish one serving and refrigerate the second meal for tomorrow’s leftover"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Lamb Cutlets with Roasted Vegetables",
+              "servingsPerRecipe": "2",
+              "servingsSize": "518.6g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "440 cal",
+                  "85 cal"
+                ],
+                [
+                  "Protein",
+                  "28.1g",
+                  "5.4g"
+                ],
+                [
+                  "Fat, total",
+                  "18.9g",
+                  "3.6g"
+                ],
+                [
+                  "- saturated",
+                  "5.0g",
+                  "1.0g"
+                ],
+                [
+                  "Carbohydrate",
+                  "33.3g",
+                  "6.4g"
+                ],
+                [
+                  "- sugars",
+                  "16.0g",
+                  "3.1g"
+                ],
+                [
+                  "Sodium",
+                  "133mg",
+                  "26mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 x 100g lamb chops, uncooked (fat removed)",
+                "10g fresh rosemary",
+                "10ml olive oil",
+                "1 garlic clove, crushed",
+                "20ml lemon juice",
+                "300g sweet potato",
+                "200g zucchini",
+                "200g carrot",
+                "100g red onion",
+                "1 garlic clove, crushed",
+                "10ml olive oil",
+                "10g dried basil",
+                "Himalayan salt",
+                "Pepper"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees",
+                "Line a baking tray with baking paper",
+                "Combine the olive oil and garlic in a small bowl",
+                "Place the vegetables onto the tray and using a pastry brush rub the garlic oil over the vegetables. Season the vegetables with basil, Himalayan salt, and pepper",
+                "Bake the vegetables in the oven for 25-30 minutes or until cooked. Once cooked remove from the oven",
+                "Whilst the vegetables are baking, in a bowl marinate the lamb chops with oil, rosemary, garlic, and lemon juice",
+                "Heat a barbecue and cook the lamb chops for a few minutes on each side or until cooked to liking",
+                "Divide the lamb chops and vegetables between two plates. Dish one serving and refrigerate the second meal for tomorrow’s leftover"
+              ]
             }
           }
         ]
@@ -1153,7 +2140,7 @@
             "category": "breakfast",
             "title": "Poached Eggs with Tomato and Basil Bruschetta",
             "mealURL": "https://f45challenge.com/recipe-list/poached-eggs-with-tomato-and-basil-bruschetta/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Poached Eggs with Tomato and Basil Bruschetta",
               "servingsPerRecipe": "1",
               "servingsSize": "392.4g",
@@ -1219,15 +2206,83 @@
                 "Transfer the bruschetta into the bowl with the poached eggs",
                 "Sprinkle the feta over the bruschetta and season with Himalayan salt and pepper",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Poached Eggs with Tomato and Basil Bruschetta",
+              "servingsPerRecipe": "1",
+              "servingsSize": "347.8g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "411 cal",
+                  "118 cal"
+                ],
+                [
+                  "Protein",
+                  "19.6g",
+                  "5.6g"
+                ],
+                [
+                  "Fat, total",
+                  "33.5g",
+                  "9.6g"
+                ],
+                [
+                  "- saturated",
+                  "12.3g",
+                  "3.5g"
+                ],
+                [
+                  "Carbohydrate",
+                  "4.9g",
+                  "1.4g"
+                ],
+                [
+                  "- sugars",
+                  "4.4g",
+                  "1.3g"
+                ],
+                [
+                  "Sodium",
+                  "530mg",
+                  "152mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 (80g) free-range eggs",
+                "100g tomato, diced",
+                "30g red onion, diced",
+                "50g avocado, chopped",
+                "10g fresh basil, chopped",
+                "50g feta cheese",
+                "1 garlic clove, crushed",
+                "30ml balsamic vinegar",
+                "10ml olive oil",
+                "30ml white vinegar"
+              ],
+              "instructions": [
+                "Bring water and vinegar to boil in a saucepan over medium heat",
+                "Using a wooden spoon, stir the water creating a whirlpool. Crack the eggs into the water and cook for 3 minutes",
+                "Once cooked, use a slotted spoon and remove the eggs from the water and transfer to a bowl. Add the avocado beside the poached eggs",
+                "In a separate bowl, combine the tomato, onion, basil, and garlic. Pour the olive oil and vinegar over the top and combine",
+                "Transfer the bruschetta into the bowl with the poached eggs",
+                "Sprinkle the feta over the bruschetta and season with Himalayan salt and pepper",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Raw Energy Seed Bar (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/raw-energy-seeded-bar-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Raw Energy Seed Bar ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -1243,15 +2298,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Raw Energy Seed Bar ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Lentil Tuna Salad With Tahini Lime Topping",
             "mealURL": "https://f45challenge.com/recipe-list/lentil-tuna-salad-with-tahini-lime-topping/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Lentil Tuna Salad With Tahini Lime Topping",
               "servingsPerRecipe": "2",
               "servingsSize": "407.5g",
@@ -1319,15 +2392,85 @@
                 "Add in kale, peas and lentils and sauté for a further 2-3 minutes.",
                 "Add in cumin, coriander and parsley and stir through. Cook for an extra minute, until spices are fragrant.",
                 "Transfer half to a bowl for lunch and dollop with half of the Tahini Lime Dressing. Refrigerate remaining portion for tomorrow’s leftovers."
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Lentil Tuna Salad With Tahini Lime Topping",
+              "servingsPerRecipe": "2",
+              "servingsSize": "265g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "397 cal",
+                  "149 cal"
+                ],
+                [
+                  "Protein",
+                  "33.4g",
+                  "12.6g"
+                ],
+                [
+                  "Fat, total",
+                  "23.7g",
+                  "8.9g"
+                ],
+                [
+                  "- saturated",
+                  "11.7g",
+                  "4.4g"
+                ],
+                [
+                  "Carbohydrate",
+                  "9.6g",
+                  "3.6g"
+                ],
+                [
+                  "- sugars",
+                  "3.4g",
+                  "1.3g"
+                ],
+                [
+                  "Sodium",
+                  "338mg",
+                  "127mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "1 tbsp. (20ml) coconut oil",
+                "200g tuna in springwater, drained",
+                "2 cups (60g) kale, chopped",
+                "50g frozen green peas, thawed",
+                "150g canned lentils, rinsed",
+                "2 tsp. ground cumin",
+                "1 tsp. ground coriander",
+                "1/2 bunch flat-leaf parsley, finely diced",
+                "Himalayan salt & pepper",
+                "30g hulled tahini",
+                "50g natural Greek yoghurt (unsweetened)",
+                "1 lime, juiced",
+                "1/2 tsp. ground cumin",
+                "Himalayan salt & pepper"
+              ],
+              "instructions": [
+                "Prepare Tahini Lime Dressing by combining all of the ingredients in a small bowl. Set aside.",
+                "Heat coconut oil in a frying pan over a medium to high heat. Add in tuna and cook, stirring, for 1 minute.",
+                "Add in kale, peas and lentils and sauté for a further 2-3 minutes.",
+                "Add in cumin, coriander and parsley and stir through. Cook for an extra minute, until spices are fragrant.",
+                "Transfer half to a bowl for lunch and dollop with half of the Tahini Lime Dressing. Refrigerate remaining portion for tomorrow’s leftovers."
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Crunchy Protein Shake",
             "mealURL": "https://f45challenge.com/recipe-list/crunchy-protein-shake/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Crunchy Protein Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "295g",
@@ -1382,15 +2525,72 @@
               "instructions": [
                 "Add all the ingredients in a protein shaker and shake until combined",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Crunchy Protein Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "285g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "231 cal",
+                  "81 cal"
+                ],
+                [
+                  "Protein",
+                  "16.2g",
+                  "5.7g"
+                ],
+                [
+                  "Fat, total",
+                  "12.9g",
+                  "4.5g"
+                ],
+                [
+                  "- saturated",
+                  "1.2g",
+                  "0.4g"
+                ],
+                [
+                  "Carbohydrate",
+                  "11.9g",
+                  "4.2g"
+                ],
+                [
+                  "- sugars",
+                  "1.5g",
+                  "0.5g"
+                ],
+                [
+                  "Sodium",
+                  "454mg",
+                  "159mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "15g vanilla protein powder",
+                "10g buckinis (activated buckwheat)",
+                "10g chopped raw, unsalted almonds",
+                "250ml unsweetened almond milk"
+              ],
+              "instructions": [
+                "Add all the ingredients in a protein shaker and shake until combined",
+                "Serve"
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Lamb Cutlets with Roasted Vegetables (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/lamb-cutlets-with-roasted-vegetables-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Lamb Cutlets with Roasted Vegetables ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -1406,8 +2606,26 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Lamb Cutlets with Roasted Vegetables ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           }
         ]
@@ -1422,7 +2640,7 @@
             "category": "breakfast",
             "title": "Roast Vegetable Omelette",
             "mealURL": "https://f45challenge.com/recipe-list/roast-vegetable-omelette/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Roast Vegetable Omelette",
               "servingsPerRecipe": "1",
               "servingsSize": "510g",
@@ -1492,15 +2710,87 @@
                 "Fold one half of the omelette over enclosing the filling",
                 "Serve the omelette on a plate",
                 "Toast the bread until liking and serve beside the omelette"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Roast Vegetable Omelette",
+              "servingsPerRecipe": "1",
+              "servingsSize": "415g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "411 cal",
+                  "99 cal"
+                ],
+                [
+                  "Protein",
+                  "27.8g",
+                  "6.7g"
+                ],
+                [
+                  "Fat, total",
+                  "19.0g",
+                  "4.6g"
+                ],
+                [
+                  "- saturated",
+                  "8.2g",
+                  "2.0g"
+                ],
+                [
+                  "Carbohydrate",
+                  "29.4g",
+                  "7.1g"
+                ],
+                [
+                  "- sugars",
+                  "10.5g",
+                  "2.5g"
+                ],
+                [
+                  "Sodium",
+                  "673mg",
+                  "162mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 free range eggs",
+                "1 gluten free bread slice",
+                "1/3 red onion, chopped",
+                "60g pumpkin, chopped",
+                "60g sweet potato, chopped",
+                "100g mushrooms, chopped",
+                "30g feta cheese, crumbled",
+                "Himalayan salt and pepper",
+                "5g dried rosemary",
+                "1 garlic clove, crushed",
+                "1 tsp. extra virgin olive oil"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees and line a baking tray with baking paper",
+                "Boil water in a small saucepan over medium heat and cook the pumpkin and sweet potato for 8 minutes. Drain the water",
+                "Add the pumpkin and sweet potato to the tray and sprinkle rosemary, Himalayan salt, and pepper over the top. Spread the garlic over the top. Bake the pumpkin and sweet potato in the oven for 15-20 minutes or until golden brown",
+                "Crack eggs in a bowl and whisk vigorously",
+                "Heat olive oil in a non-stick fry pan over medium heat and saute the onion and mushroom for a few minutes",
+                "Pour the egg into the frying pan and cook for a few minutes or until the egg mixture begins to set underneath",
+                "Add the roasted pumpkin and sweet potato to the middle of the omelette and sprinkle the feta cheese over the top",
+                "Fold one half of the omelette over enclosing the filling",
+                "Serve the omelette on a plate",
+                "Toast the bread until liking and serve beside the omelette"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Chickpea Cream Rice Cakes",
             "mealURL": "https://f45challenge.com/recipe-list/chickpea-cream-rice-cakes/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Chickpea Cream Rice Cakes",
               "servingsPerRecipe": "2",
               "servingsSize": "97.5g",
@@ -1560,15 +2850,76 @@
                 "Add ingredients for Chickpea Cream Cheese to a blender and blend until smooth.",
                 "Add half of the chickpeas to a container and refrigerate for tomorrow’s leftovers. Add 3 brown rice cakes to a container for tomorrow’s leftovers.",
                 "Spread the remaining Chickpea Cream Cheese over 3 brown rice cakes and serve for today’s snack."
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Chickpea Cream Rice Cakes",
+              "servingsPerRecipe": "2",
+              "servingsSize": "82g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "206 cal",
+                  "251 cal"
+                ],
+                [
+                  "Protein",
+                  "9.3g",
+                  "11.4g"
+                ],
+                [
+                  "Fat, total",
+                  "9.1g",
+                  "11.1g"
+                ],
+                [
+                  "- saturated",
+                  "1.5g",
+                  "1.8g"
+                ],
+                [
+                  "Carbohydrate",
+                  "20.9g",
+                  "25.5g"
+                ],
+                [
+                  "- sugars",
+                  "1.6g",
+                  "1.9g"
+                ],
+                [
+                  "Sodium",
+                  "129mg",
+                  "157mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "4 x (24g) brown rice cakes",
+                "30g raw unsalted cashews, roughly chopped",
+                "100g canned chickpeas, rinsed",
+                "10g nutritional yeast flakes",
+                "½ lemon, juiced",
+                "2 tbsp (40ml) filtered water",
+                "Himalayan salt & pepper"
+              ],
+              "instructions": [
+                "Add ingredients for Chickpea Cream Cheese to a blender and blend until smooth.",
+                "Add half of the chickpeas to a container and refrigerate for tomorrow’s leftovers. Add 2 brown rice cakes to a container for tomorrow’s leftovers.",
+                "Spread the remaining Chickpea Cream Cheese over 2 brown rice cakes and serve for today’s snack."
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Lentil Tuna Salad With Tahini Lime Topping (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/lentil-tuna-salad-with-tahini-lime-topping-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Lentil Tuna Salad With Tahini Lime Topping ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -1584,15 +2935,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Lentil Tuna Salad With Tahini Lime Topping ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Mixed Nuts and Seeds",
             "mealURL": "https://f45challenge.com/recipe-list/mixed-nuts-and-seeds/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Mixed Nuts and Seeds",
               "servingsPerRecipe": "1",
               "servingsSize": "55g",
@@ -1646,15 +3015,71 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Mixed Nuts and Seeds",
+              "servingsPerRecipe": "1",
+              "servingsSize": "40g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "233 cal",
+                  "58. cal"
+                ],
+                [
+                  "Protein",
+                  "7.8g",
+                  "19.6g"
+                ],
+                [
+                  "Fat, total",
+                  "20.4g",
+                  "51.1g"
+                ],
+                [
+                  "- saturated",
+                  "2.5g",
+                  "6.1g"
+                ],
+                [
+                  "Carbohydrate",
+                  "4.0g",
+                  "10.1g"
+                ],
+                [
+                  "- sugars",
+                  "1.7g",
+                  "4.2g"
+                ],
+                [
+                  "Sodium",
+                  "3mg",
+                  "8mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "15g raw, unsalted almonds",
+                "15g raw, unsalted cashews",
+                "5g pumpkin seeds",
+                "5g sunflower seeds"
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Cranberry Chicken with Roasted Pumpkin and Green Beans",
             "mealURL": "https://f45challenge.com/recipe-list/cranberry-chicken-with-roasted-green-beans/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Cranberry Chicken with Roasted Pumpkin and Green Beans",
               "servingsPerRecipe": "2",
               "servingsSize": "799.6g",
@@ -1722,8 +3147,78 @@
                 "Whilst the chicken and vegetables are baking,  heat a saucepan over low-medium temperature and add the cranberries, honey, water, and orange juice and bring to the boil. Continue stirring and cooking for 8 minutes. Set aside",
                 "Divide the chicken, pumpkin and green beans into two meals. Evenly pour the cranberry sauce over each chicken piece",
                 "Dish one meal and refrigerate the remaining meal for tomorrow’s leftover"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Cranberry Chicken with Roasted Pumpkin and Green Beans",
+              "servingsPerRecipe": "2",
+              "servingsSize": "699.6g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "445 cal",
+                  "63 cal"
+                ],
+                [
+                  "Protein",
+                  "43.9g",
+                  "6.3g"
+                ],
+                [
+                  "Fat, total",
+                  "11.3g",
+                  "1.6g"
+                ],
+                [
+                  "- saturated",
+                  "2.1g",
+                  "0.3g"
+                ],
+                [
+                  "Carbohydrate",
+                  "33.7g",
+                  "4.8g"
+                ],
+                [
+                  "- sugars",
+                  "27.3g",
+                  "3.9g"
+                ],
+                [
+                  "Sodium",
+                  "80mg",
+                  "11mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 x 150g raw, chicken breast fillet",
+                "80g red onion, sliced",
+                "15ml olive oil",
+                "400g green beans, ends trimmed",
+                "400g uncooked pumpkin, chopped",
+                "2 tsp. dried rosemary",
+                "Himalayan salt",
+                "Pepper",
+                "1/2 cup (50g) fresh cranberries",
+                "1/2 cup (125ml) fresh orange juice",
+                "3 tbsp. (45ml)  water",
+                "10ml honey"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees and line a deep baking tray with baking paper",
+                "Add the olive oil, rosemary, pinch of Himalayan salt and pepper in a small bowl. Set aside",
+                "Place the chicken onto the tray. Using a pastry brush, brush 1/3 of the olive oil over chicken. Bake the chicken in the oven for 15 minutes",
+                "After 15 minutes, remove the chicken from the oven and add the pumpkin, green beans and onion. Using the pastry brush, brush remaining olive oil over the top. Bake for a further 20-25 minutes or until cooked to liking",
+                "Whilst the chicken and vegetables are baking,  heat a saucepan over low-medium temperature and add the cranberries, honey, water, and orange juice and bring to the boil. Continue stirring and cooking for 8 minutes. Set aside",
+                "Divide the chicken, pumpkin and green beans into two meals. Evenly pour the cranberry sauce over each chicken piece",
+                "Dish one meal and refrigerate the remaining meal for tomorrow’s leftover"
+              ]
             }
           }
         ]
@@ -1738,7 +3233,7 @@
             "category": "breakfast",
             "title": "Triple Choc Shake",
             "mealURL": "https://f45challenge.com/recipe-list/triple-choc-shake/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Triple Choc Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "478g",
@@ -1797,15 +3292,76 @@
                 "Add all the ingredients into a blender and blend until a smooth consistency is formed",
                 "Pour the smoothie into a large glass",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Triple Choc Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "411g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "407 cal",
+                  "98 cal"
+                ],
+                [
+                  "Protein",
+                  "31.4g",
+                  "7.6g"
+                ],
+                [
+                  "Fat, total",
+                  "12.4g",
+                  "3.0g"
+                ],
+                [
+                  "- saturated",
+                  "4.8g",
+                  "1.2g"
+                ],
+                [
+                  "Carbohydrate",
+                  "43.0g",
+                  "10.5g"
+                ],
+                [
+                  "- sugars",
+                  "22.8g",
+                  "5.6g"
+                ],
+                [
+                  "Sodium",
+                  "403mg",
+                  "98mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "150g frozen banana",
+                "8g cacao powder",
+                "30g chocolate protein powder",
+                "10g cacao nibs",
+                "80g coconut yoghurt",
+                "180ml almond milk",
+                "1 cup ice"
+              ],
+              "instructions": [
+                "Add all the ingredients into a blender and blend until a smooth consistency is formed",
+                "Pour the smoothie into a large glass",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Mixed Nuts and Seeds",
             "mealURL": "https://f45challenge.com/recipe-list/mixed-nuts-and-seeds/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Mixed Nuts and Seeds",
               "servingsPerRecipe": "1",
               "servingsSize": "55g",
@@ -1859,15 +3415,71 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Mixed Nuts and Seeds",
+              "servingsPerRecipe": "1",
+              "servingsSize": "40g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "233 cal",
+                  "58. cal"
+                ],
+                [
+                  "Protein",
+                  "7.8g",
+                  "19.6g"
+                ],
+                [
+                  "Fat, total",
+                  "20.4g",
+                  "51.1g"
+                ],
+                [
+                  "- saturated",
+                  "2.5g",
+                  "6.1g"
+                ],
+                [
+                  "Carbohydrate",
+                  "4.0g",
+                  "10.1g"
+                ],
+                [
+                  "- sugars",
+                  "1.7g",
+                  "4.2g"
+                ],
+                [
+                  "Sodium",
+                  "3mg",
+                  "8mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "15g raw, unsalted almonds",
+                "15g raw, unsalted cashews",
+                "5g pumpkin seeds",
+                "5g sunflower seeds"
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Grass-fed Steak with Roasted Cauliflower Salad",
             "mealURL": "https://f45challenge.com/recipe-list/grass-fed-steak-with-roasted-cauliflower-salad/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Grass-fed Steak with Roasted Cauliflower Salad",
               "servingsPerRecipe": "1",
               "servingsSize": "810g",
@@ -1937,15 +3549,87 @@
                 "Combine the spinach leaves, onion, cauliflower in a bowl. Sprinkle the pomegranate seeds over the top",
                 "Drizzle the lemon and olive oil over the salad and combine well",
                 "Serve the steak beside the roasted cauliflower salad"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Grass-fed Steak with Roasted Cauliflower Salad",
+              "servingsPerRecipe": "1",
+              "servingsSize": "603.6g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "402 cal",
+                  "66 cal"
+                ],
+                [
+                  "Protein",
+                  "46.3g",
+                  "7.7g"
+                ],
+                [
+                  "Fat, total",
+                  "17.7g",
+                  "2.9g"
+                ],
+                [
+                  "- saturated",
+                  "3.3g",
+                  "0.6g"
+                ],
+                [
+                  "Carbohydrate",
+                  "10.0g",
+                  "1.6g"
+                ],
+                [
+                  "- sugars",
+                  "9.0g",
+                  "1.5g"
+                ],
+                [
+                  "Sodium",
+                  "197mg",
+                  "33mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "150g raw grass-fed beef steak, fat removed",
+                "200g uncooked cauliflower florets",
+                "50g baby spinach leaves",
+                "20g pomegranate seeds",
+                "30g red onion, sliced",
+                "1 garlic clove, crushed",
+                "2 tsp. turmeric",
+                "2 tsp. extra virgin olive oil",
+                "1 tsp. paprika",
+                "1 tsp. coriander",
+                "1 garlic clove, crushed",
+                "1 lemon, freshly squeezed",
+                "1 tsp. extra virgin olive oil"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees and line a baking tray with baking paper",
+                "Place the cauliflower on the tray and drizzle olive oil over the top. Season the cauliflower with turmeric, Himalayan salt, and pepper and spread garlic over the top",
+                "Bake in the oven for 20 minutes or until golden brown. Once cooked remove from the heat",
+                "Season the steak with garlic, paprika, and coriander",
+                "Whilst the cauliflower is baking, heat a non-stick fry pan over medium heat and cook the steak for 3-4 minutes on each side or until cooked to liking. Set aside",
+                "Combine the spinach leaves, onion, cauliflower in a bowl. Sprinkle the pomegranate seeds over the top",
+                "Drizzle the lemon and olive oil over the salad and combine well",
+                "Serve the steak beside the roasted cauliflower salad"
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Chickpea Cream Rice Cakes (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/chickpea-cream-rice-cakes-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Chickpea Cream Rice Cakes ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -1961,15 +3645,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Chickpea Cream Rice Cakes ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Cranberry Chicken with Roasted Pumpkin and Green Beans (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/cranberry-chicken-with-roasted-pumpkin-and-green-beans-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Cranberry Chicken with Roasted Pumpkin and Green Beans ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -1985,8 +3687,26 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Cranberry Chicken with Roasted Pumpkin and Green Beans ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           }
         ]
@@ -1995,8 +3715,8 @@
   },
   {
     "week": "Maintenance Week 2",
-    "linkToAppend": "?is_next=2019-12-18",
-    "url": "https://f45challenge.com/meals-plans/?is_next=2019-12-18",
+    "linkToAppend": "?is_next=2019-12-20",
+    "url": "https://f45challenge.com/meals-plans/?is_next=2019-12-20",
     "dayData": [
       {
         "dayInfo": {
@@ -2008,7 +3728,7 @@
             "category": "breakfast",
             "title": "Green Pea and Spinach Omelette",
             "mealURL": "https://f45challenge.com/recipe-list/green-pea-and-spinach-omelette/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Green Pea and Spinach Omelette",
               "servingsPerRecipe": "1",
               "servingsSize": "418.6g",
@@ -2069,15 +3789,77 @@
                 "Pour in the egg mixture and cook for a further 6 minutes on medium heat. Flip one half of the omelette over and continue to cook for a few minutes or until the egg sets in the middle",
                 "Whilst the omelette is cooking, toast the bread until golden brown",
                 "Serve the toast beside the omelette on a plate"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Green Pea and Spinach Omelette",
+              "servingsPerRecipe": "1",
+              "servingsSize": "248.6g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "411 cal",
+                  "165 cal"
+                ],
+                [
+                  "Protein",
+                  "20.4g",
+                  "8.2g"
+                ],
+                [
+                  "Fat, total",
+                  "25.8g",
+                  "10.4g"
+                ],
+                [
+                  "- saturated",
+                  "5.9g",
+                  "2.4g"
+                ],
+                [
+                  "Carbohydrate",
+                  "23.1g",
+                  "9.3g"
+                ],
+                [
+                  "- sugars",
+                  "4.7g",
+                  "1.9g"
+                ],
+                [
+                  "Sodium",
+                  "390mg",
+                  "157mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 free range eggs",
+                "50g frozen green peas",
+                "20g baby spinach leaves",
+                "15ml olive oil",
+                "1 gluten-free bread slice",
+                "Himalayan salt and pepper"
+              ],
+              "instructions": [
+                "Crack the eggs into a bowl and whisk vigorously. Season with Himalayan salt and pepper",
+                "Heat olive oil in a non-stick fry pan over low temperature and saute the green peas and spinach for 5 minutes",
+                "Pour in the egg mixture and cook for a further 6 minutes on medium heat. Flip one half of the omelette over and continue to cook for a few minutes or until the egg sets in the middle",
+                "Whilst the omelette is cooking, toast the bread until golden brown",
+                "Serve the toast beside the omelette on a plate"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Walnut Banana Bread",
             "mealURL": "https://f45challenge.com/recipe-list/flourless-banana-bread/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Walnut Banana Bread",
               "servingsPerRecipe": "5",
               "servingsSize": "152.1g",
@@ -2145,15 +3927,85 @@
                 "Transfer the mixture into the baking dish and bake in the oven for 45 minutes or until it’s cooked in the middle. Once cooked remove from the oven and allow to cool for 10 minutes",
                 "Slice the banana bread into 5 slices",
                 "Serve one slice for a snack and refrigerate the remaining slices to be consumed as leftovers"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Walnut Banana Bread",
+              "servingsPerRecipe": "5",
+              "servingsSize": "139g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "257 cal",
+                  "185 cal"
+                ],
+                [
+                  "Protein",
+                  "9.1g",
+                  "6.5g"
+                ],
+                [
+                  "Fat, total",
+                  "11.7g",
+                  "8.4g"
+                ],
+                [
+                  "- saturated",
+                  "3.5g",
+                  "2.5g"
+                ],
+                [
+                  "Carbohydrate",
+                  "27.0g",
+                  "19.4g"
+                ],
+                [
+                  "- sugars",
+                  "15.8g",
+                  "11.4g"
+                ],
+                [
+                  "Sodium",
+                  "344mg",
+                  "247mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "30g protein powder",
+                "400g mashed banana",
+                "60g almond flour",
+                "50g gluten-free plain flour",
+                "2 free-range eggs",
+                "15ml coconut oil",
+                "15ml apple cider vinegar",
+                "40g walnuts, chopped",
+                "1 tsp. baking soda",
+                "30ml pure maple syrup",
+                "1 tsp. vanilla extract",
+                "1 tsp. cinnamon"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees and line a baking dish with baking paper",
+                "Combine the banana, walnuts, protein powder, almond flour, baking soda and cinnamon in a bowl",
+                "In a separate bowl crack the eggs and whisk. Mix in the vanilla extract and maple syrup",
+                "Pour the liquid ingredients into the bowl of dry ingredients",
+                "Transfer the mixture into the baking dish and bake in the oven for 45 minutes or until it’s cooked in the middle. Once cooked remove from the oven and allow to cool for 10 minutes",
+                "Slice the banana bread into 5 slices",
+                "Serve one slice for a snack and refrigerate the remaining slices to be consumed as leftovers"
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Pumpkin Bites With Lamb And Goats Cheese",
             "mealURL": "https://f45challenge.com/recipe-list/pumpkin-and-lamb-goats-cheese-delight/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Pumpkin Bites With Lamb And Goats Cheese",
               "servingsPerRecipe": "2",
               "servingsSize": "600.8g",
@@ -2219,15 +4071,83 @@
                 "Add the cooked pumpkin and lamb to the salad and mix together",
                 "Pour the olive oil and vinegar over the salad and combine well",
                 "Divide the meal into two serves. Dish one serving of the pumpkin bites with lamb and goats cheese and refrigerate the second meal for tomorrow’s leftover"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Pumpkin Bites With Lamb And Goats Cheese",
+              "servingsPerRecipe": "2",
+              "servingsSize": "475.8g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "426 cal",
+                  "89 cal"
+                ],
+                [
+                  "Protein",
+                  "39.9g",
+                  "8.4g"
+                ],
+                [
+                  "Fat, total",
+                  "21.6g",
+                  "4.5g"
+                ],
+                [
+                  "- saturated",
+                  "8.2g",
+                  "1.7g"
+                ],
+                [
+                  "Carbohydrate",
+                  "14.2g",
+                  "3.0g"
+                ],
+                [
+                  "- sugars",
+                  "11.2g",
+                  "2.4g"
+                ],
+                [
+                  "Sodium",
+                  "148mg",
+                  "31mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 cups uncooked pumpkin, chopped into bite sizes",
+                "300g raw lamb, chopped",
+                "25g goats cheese",
+                "100g baby spinach leaves",
+                "100g tomato, sliced",
+                "1/2 red onion, sliced",
+                "1 tbsp. dried rosemary",
+                "1 tsp. coconut oil",
+                "1 garlic clove, crushed",
+                "1 tbsp. extra virgin olive oil",
+                "3 tbsp. balsamic vinegar"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees and line a baking tray with baking paper. Place the pumpkin on the tray and sprinkle rosemary and Himalayan salt over the top. Bake in the oven for 30 minutes or until golden brown. Once cooked remove from the oven",
+                "Meanwhile, heat coconut oil in a non-stick fry pan over medium heat and cook the lamb with crushed garlic and pepper for 4 minutes on each side or until the lamb is cooked to liking. Once cooked set aside",
+                "Combine the baby spinach leaves, onion, tomato, and goats cheese in a large bowl",
+                "Add the cooked pumpkin and lamb to the salad and mix together",
+                "Pour the olive oil and vinegar over the salad and combine well",
+                "Divide the meal into two serves. Dish one serving of the pumpkin bites with lamb and goats cheese and refrigerate the second meal for tomorrow’s leftover"
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Protein Coconut Shake",
             "mealURL": "https://f45challenge.com/recipe-list/protein-coconut-shake-2/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Protein Coconut Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "537g",
@@ -2281,15 +4201,71 @@
                 "Add the protein powder and coconut milk in a protein shaker",
                 "Shake vigorously until mixed together",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Protein Coconut Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "330g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "208 cal",
+                  "63 cal"
+                ],
+                [
+                  "Protein",
+                  "19.5g",
+                  "5.9g"
+                ],
+                [
+                  "Fat, total",
+                  "11.3g",
+                  "3.4g"
+                ],
+                [
+                  "- saturated",
+                  "6.9g",
+                  "2.1g"
+                ],
+                [
+                  "Carbohydrate",
+                  "6.1g",
+                  "1.8g"
+                ],
+                [
+                  "- sugars",
+                  "2.8g",
+                  "0.8g"
+                ],
+                [
+                  "Sodium",
+                  "86mg",
+                  "26mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 tbsp. natural protein powder (flavour of your choice)",
+                "300ml unsweetened coconut milk"
+              ],
+              "instructions": [
+                "Add the protein powder and coconut milk in a protein shaker",
+                "Shake vigorously until mixed together",
+                "Serve"
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Salmon and Chives Frittata",
             "mealURL": "https://f45challenge.com/recipe-list/salmon-and-chives-frittata/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Salmon and Chives Frittata",
               "servingsPerRecipe": "2",
               "servingsSize": "438.8g",
@@ -2361,8 +4337,82 @@
                 "Bake the frittata in the oven for 30 minutes or until cooked in the center",
                 "Slice the frittata into two serves",
                 "Dish one serving and refrigerate the leftover frittata for tomorrow’s meal"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Salmon and Chives Frittata",
+              "servingsPerRecipe": "2",
+              "servingsSize": "361.5g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "433 cal",
+                  "120 cal"
+                ],
+                [
+                  "Protein",
+                  "35.0g",
+                  "9.7g"
+                ],
+                [
+                  "Fat, total",
+                  "30.1g",
+                  "8.3g"
+                ],
+                [
+                  "- saturated",
+                  "11.4g",
+                  "3.2g"
+                ],
+                [
+                  "Carbohydrate",
+                  "4.8g",
+                  "1.3g"
+                ],
+                [
+                  "- sugars",
+                  "4.4g",
+                  "1.2g"
+                ],
+                [
+                  "Sodium",
+                  "549mg",
+                  "152mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "5 free-range eggs",
+                "50g cheddar cheese, crumbled",
+                "100g canned salmon, drained",
+                "60g cherry tomatoes, chopped in half",
+                "90g spring onion, chopped",
+                "150g zucchini, grated",
+                "10g chives, chopped",
+                "2 garlic cloves, crushed",
+                "10ml olive oil",
+                "1 tsp. turmeric",
+                "1 tsp. cumin",
+                "1 tsp. paprika",
+                "1 tbsp. Italian dried herbs",
+                "Himalayan salt and pepper"
+              ],
+              "instructions": [
+                "Preheat oven to 180 degrees and prepare your baking dish",
+                "Crack the eggs into a bowl and whisk vigorously. Add the chives, turmeric, cumin, paprika, Italian herbs, Himalayan salt, and pepper",
+                "Heat olive oil in a non-stick fry pan over medium temperature and saute the spring onion and  zucchini with garlic for 1-2 minutes",
+                "Pour the egg mixture into the baking dish",
+                "Mix in the cherry tomatoes, zucchini, spring onion, and salmon",
+                "Sprinkle the cheese over the top",
+                "Bake the frittata in the oven for 30 minutes or until cooked in the center",
+                "Slice the frittata into two serves",
+                "Dish one serving and refrigerate the leftover frittata for tomorrow’s meal"
+              ]
             }
           }
         ]
@@ -2377,7 +4427,7 @@
             "category": "breakfast",
             "title": "Peanut Butter Protein Crunch Shake",
             "mealURL": "https://f45challenge.com/recipe-list/peanut-butter-protein-crunch-shake/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Peanut Butter Protein Crunch Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "622.1g",
@@ -2439,15 +4489,79 @@
                 "Pour the smoothie into a large glass",
                 "Sprinkle the buckinis over the top",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Peanut Butter Protein Crunch Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "422.1g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "395 cal",
+                  "93 cal"
+                ],
+                [
+                  "Protein",
+                  "17.3g",
+                  "4.1g"
+                ],
+                [
+                  "Fat, total",
+                  "15.2g",
+                  "3.6g"
+                ],
+                [
+                  "- saturated",
+                  "4.1g",
+                  "1.0g"
+                ],
+                [
+                  "Carbohydrate",
+                  "41.1g",
+                  "9.7g"
+                ],
+                [
+                  "- sugars",
+                  "23.7g",
+                  "5.6g"
+                ],
+                [
+                  "Sodium",
+                  "107mg",
+                  "25mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "10g natural peanut butter",
+                "15g natural vanilla protein powder",
+                "1 tsp. (5g) desiccated coconut",
+                "120g banana, frozen",
+                "15g buckinis (activated buckwheat)",
+                "1 tsp. (5ml) organic honey",
+                "280ml unsweetened almond milk",
+                "1 cup ice cubes"
+              ],
+              "instructions": [
+                "Add the banana, ice, almond milk, honey, coconut, protein powder and peanut butter in a blender",
+                "Blend until a smooth consistency is formed",
+                "Pour the smoothie into a large glass",
+                "Sprinkle the buckinis over the top",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Chicken Fingers With Tzatziki",
             "mealURL": "https://f45challenge.com/recipe-list/chicken-fingers-with-tzatziki/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Chicken Fingers With Tzatziki",
               "servingsPerRecipe": "2",
               "servingsSize": "255.2g",
@@ -2516,15 +4630,86 @@
                 "Bake the chicken strips in the oven for 30-40 minutes or until its cooked in the center. After 15 minutes, turn the chicken breast over to cook the other side",
                 "Whilst the chicken is baking, combine the yoghurt, cucumber, mint, and garlic in a bowl. Season with Himalayan salt",
                 "Divide the tzatziki and chicken fingers into two serves. Dish one serving of the chicken fingers and tzatziki and refrigerate the second serve for tomorrow’s leftover"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Chicken Fingers With Tzatziki",
+              "servingsPerRecipe": "2",
+              "servingsSize": "210.2g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "261 cal",
+                  "124 cal"
+                ],
+                [
+                  "Protein",
+                  "23.5g",
+                  "11.2g"
+                ],
+                [
+                  "Fat, total",
+                  "5.3g",
+                  "2.5g"
+                ],
+                [
+                  "- saturated",
+                  "1.8g",
+                  "0.9g"
+                ],
+                [
+                  "Carbohydrate",
+                  "28.0g",
+                  "13.4g"
+                ],
+                [
+                  "- sugars",
+                  "4.5g",
+                  "2.1g"
+                ],
+                [
+                  "Sodium",
+                  "205mg",
+                  "98mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "130g raw, free-range chicken breast strips",
+                "1 free range egg",
+                "30g breadcrumbs",
+                "40g gluten-free plain flour",
+                "1 tsp. cumin",
+                "1 tsp. paprika",
+                "2 tsp. dried Italian mixed herbs",
+                "1 garlic clove, crushed",
+                "60g natural Greek yoghurt, reduced fat",
+                "100g cucumber, diced",
+                "2 tsp. dried mint",
+                "1 garlic clove, crushed",
+                "Himalayan salt"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees and line a baking tray with baking paper",
+                "Crack the egg into a bowl and whisk vigorously",
+                "Add the breadcrumbs and plain flour into separate bowls. Add the cumin and paprika to the flour, garlic into the egg mixture and Italian herbs to the breadcrumbs",
+                "Coat the chicken breast strips in the plain flour then dip into the egg and press firmly down on the chicken strips coating one side (in that order)",
+                "Bake the chicken strips in the oven for 30-40 minutes or until its cooked in the center. After 15 minutes, turn the chicken breast over to cook the other side",
+                "Whilst the chicken is baking, combine the yoghurt, cucumber, mint, and garlic in a bowl. Season with Himalayan salt",
+                "Divide the tzatziki and chicken fingers into two serves. Dish one serving of the chicken fingers and tzatziki and refrigerate the second serve for tomorrow’s leftover"
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Pumpkin Bites With Lamb And Goats Cheese (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/pumpkin-and-lamb-goats-cheese-delight-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Pumpkin Bites With Lamb And Goats Cheese ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -2540,15 +4725,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Pumpkin Bites With Lamb And Goats Cheese ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Walnut Banana Bread (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/flourless-banana-bread-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Walnut Banana Bread ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -2564,15 +4767,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Walnut Banana Bread ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Salmon and Chives Frittata (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/salmon-and-chives-frittata-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Salmon and Chives Frittata ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -2588,8 +4809,26 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Salmon and Chives Frittata ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           }
         ]
@@ -2604,7 +4843,7 @@
             "category": "breakfast",
             "title": "Healthy Protein Brekkie Bowl",
             "mealURL": "https://f45challenge.com/recipe-list/healthy-protein-brekkie-bowl/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Healthy Protein Brekkie Bowl",
               "servingsPerRecipe": "1",
               "servingsSize": "225g",
@@ -2664,15 +4903,77 @@
                 "Add the baby spinach leaves, avocado, and boiled eggs into a bowl",
                 "Sprinkle the pumpkin seeds over the top. Squeeze lemon over the top and season with Himalayan salt and pepper",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Healthy Protein Brekkie Bowl",
+              "servingsPerRecipe": "1",
+              "servingsSize": "190g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "411 cal",
+                  "216 cal"
+                ],
+                [
+                  "Protein",
+                  "18.9g",
+                  "9.9g"
+                ],
+                [
+                  "Fat, total",
+                  "37.0g",
+                  "19.5g"
+                ],
+                [
+                  "- saturated",
+                  "11.2g",
+                  "5.9g"
+                ],
+                [
+                  "Carbohydrate",
+                  "1.4g",
+                  "0.7g"
+                ],
+                [
+                  "- sugars",
+                  "0.7g",
+                  "0.4g"
+                ],
+                [
+                  "Sodium",
+                  "73mg",
+                  "39mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 free range eggs",
+                "10g pumpkin seeds",
+                "30g baby spinach leaves",
+                "50g avocado, chopped",
+                "1 lemon wedge",
+                "Himalayan salt and pepper"
+              ],
+              "instructions": [
+                "To make the boiled eggs, boil water in a saucepan over medium heat and cook the eggs for 7 minutes. Once cooked, drain the water and rinse the eggs under cold water",
+                "To crack the shell, use a spoon and tap the top of the egg. Peel the skin off. Repeat for the remaining eggs",
+                "Add the baby spinach leaves, avocado, and boiled eggs into a bowl",
+                "Sprinkle the pumpkin seeds over the top. Squeeze lemon over the top and season with Himalayan salt and pepper",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Walnut Banana Bread (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/flourless-banana-bread-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Walnut Banana Bread ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -2688,15 +4989,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Walnut Banana Bread ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Wellness Chicken Bowl",
             "mealURL": "https://f45challenge.com/recipe-list/wellness-chicken-bowl/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Wellness Chicken Bowl",
               "servingsPerRecipe": "3",
               "servingsSize": "579g",
@@ -2761,15 +5080,82 @@
                 "In 3 separate bowls evenly divide the cooked chicken, chickpeas, sauerkraut, spinach, pumpkin seeds, and goji berries without mixing the ingredients together",
                 "Combine the dressing ingredients and evenly pour over the top",
                 "Serve one wellness chicken bowl and refrigerate the remaining meals to be consumed over the next couple of days"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Wellness Chicken Bowl",
+              "servingsPerRecipe": "3",
+              "servingsSize": "464g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "407 cal",
+                  "87 cal"
+                ],
+                [
+                  "Protein",
+                  "41.9g",
+                  "9.0g"
+                ],
+                [
+                  "Fat, total",
+                  "15.6g",
+                  "3.4g"
+                ],
+                [
+                  "- saturated",
+                  "5.0g",
+                  "1.1g"
+                ],
+                [
+                  "Carbohydrate",
+                  "20.7g",
+                  "4.5g"
+                ],
+                [
+                  "- sugars",
+                  "6.9g",
+                  "1.5g"
+                ],
+                [
+                  "Sodium",
+                  "381mg",
+                  "82mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "500g raw chicken breast, chopped",
+                "400g baby spinach leaves",
+                "15g pumpkin seeds",
+                "30g dried goji berries",
+                "200g canned chickpeas, drained and rinsed",
+                "100g canned sauerkraut, drained",
+                "1 tbsp. extra virgin coconut oil",
+                "1 tsp. turmeric",
+                "1 garlic clove, crushed",
+                "1 tsp. dried basil",
+                "1 lime, freshly squeezed",
+                "2 tbsp. extra virgin olive oil"
+              ],
+              "instructions": [
+                "Heat coconut oil in a non-stick fry pan over medium heat and cook the chicken with turmeric, garlic and basil for 7 minutes or until the chicken is cooked in the middle, stirring occasionally. Once cooked set aside",
+                "In 3 separate bowls evenly divide the cooked chicken, chickpeas, sauerkraut, spinach, pumpkin seeds, and goji berries without mixing the ingredients together",
+                "Combine the dressing ingredients and evenly pour over the top",
+                "Serve one wellness chicken bowl and refrigerate the remaining meals to be consumed over the next couple of days"
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Chicken Fingers With Tzatziki (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/chicken-fingers-with-tzatziki-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Chicken Fingers With Tzatziki ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -2785,15 +5171,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Chicken Fingers With Tzatziki ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Ginger Beef with Stir Fried Brown Rice",
             "mealURL": "https://f45challenge.com/recipe-list/ginger-beef-with-stir-fried-brown-rice/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Ginger Beef with Stir Fried Brown Rice",
               "servingsPerRecipe": "2",
               "servingsSize": "358.4g",
@@ -2858,8 +5262,75 @@
                 "Add the broccoli, onion, snow peas, soy sauce and egg and stir regularly for another 4-5 minutes or until the beef is cooked",
                 "Transfer the brown rice to the wok and combine well",
                 "Divide the meal into two serves. Serve one and refrigerate the leftover meal for tomorrow’s dinner"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Ginger Beef with Stir Fried Brown Rice",
+              "servingsPerRecipe": "2",
+              "servingsSize": "318.8g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "400 cal",
+                  "125 cal"
+                ],
+                [
+                  "Protein",
+                  "34.8g",
+                  "10.9g"
+                ],
+                [
+                  "Fat, total",
+                  "12.8g",
+                  "4.0g"
+                ],
+                [
+                  "- saturated",
+                  "5.6g",
+                  "1.8g"
+                ],
+                [
+                  "Carbohydrate",
+                  "33.1g",
+                  "10.4g"
+                ],
+                [
+                  "- sugars",
+                  "3.4g",
+                  "1.1g"
+                ],
+                [
+                  "Sodium",
+                  "463mg",
+                  "145mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "220g grass fed beef strips",
+                "75g uncooked brown rice",
+                "100g broccoli, chopped",
+                "100g snow peas, chopped",
+                "50g brown onion, chopped",
+                "1 tsp. ginger",
+                "1 small red chili, chopped",
+                "1 garlic clove, crushed",
+                "1 (55g) free range egg",
+                "30ml reduced salt soy sauce",
+                "5ml extra virgin coconut oil"
+              ],
+              "instructions": [
+                "Boil 500ml of water in a saucepan over medium temperature and cook the brown rice for 20-25 minutes. Season with Himalayan salt and chili. Set aside",
+                "Heat coconut oil in a wok over medium temperature and cook the beef with ginger and garlic for a few minutes",
+                "Add the broccoli, onion, snow peas, soy sauce and egg and stir regularly for another 4-5 minutes or until the beef is cooked",
+                "Transfer the brown rice to the wok and combine well",
+                "Divide the meal into two serves. Serve one and refrigerate the leftover meal for tomorrow’s dinner"
+              ]
             }
           }
         ]
@@ -2874,7 +5345,7 @@
             "category": "breakfast",
             "title": "Strawberry and Coconut Porridge",
             "mealURL": "https://f45challenge.com/recipe-list/strawberry-and-coconut-porridge/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Strawberry and Coconut Porridge",
               "servingsPerRecipe": "1",
               "servingsSize": "375g",
@@ -2932,15 +5403,75 @@
                 "Stir in the coconut and protein powder and cook for a further minute",
                 "Pour the porridge into a serving bowl and add the chopped strawberries on top",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Strawberry and Coconut Porridge",
+              "servingsPerRecipe": "1",
+              "servingsSize": "315g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "411 cal",
+                  "130 cal"
+                ],
+                [
+                  "Protein",
+                  "15.3g",
+                  "4.9g"
+                ],
+                [
+                  "Fat, total",
+                  "20.1g",
+                  "6.4g"
+                ],
+                [
+                  "- saturated",
+                  "13.5g",
+                  "4.3g"
+                ],
+                [
+                  "Carbohydrate",
+                  "39.0g",
+                  "12.4g"
+                ],
+                [
+                  "- sugars",
+                  "11.2g",
+                  "3.5g"
+                ],
+                [
+                  "Sodium",
+                  "132mg",
+                  "42mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "5 strawberries, chopped",
+                "45g uncooked rolled oats",
+                "220ml unsweetened coconut milk",
+                "15g desiccated coconut",
+                "15g natural vanilla protein powder"
+              ],
+              "instructions": [
+                "Bring coconut milk to the boil in a saucepan over medium heat and add the oats. Reduce to simmer and cook the oats for 4 minutes or until the porridge thickens. Stir occasionally with a wooden spoon",
+                "Stir in the coconut and protein powder and cook for a further minute",
+                "Pour the porridge into a serving bowl and add the chopped strawberries on top",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Protein Coconut Shake",
             "mealURL": "https://f45challenge.com/recipe-list/protein-coconut-shake-2/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Protein Coconut Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "537g",
@@ -2994,15 +5525,71 @@
                 "Add the protein powder and coconut milk in a protein shaker",
                 "Shake vigorously until mixed together",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Protein Coconut Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "330g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "208 cal",
+                  "63 cal"
+                ],
+                [
+                  "Protein",
+                  "19.5g",
+                  "5.9g"
+                ],
+                [
+                  "Fat, total",
+                  "11.3g",
+                  "3.4g"
+                ],
+                [
+                  "- saturated",
+                  "6.9g",
+                  "2.1g"
+                ],
+                [
+                  "Carbohydrate",
+                  "6.1g",
+                  "1.8g"
+                ],
+                [
+                  "- sugars",
+                  "2.8g",
+                  "0.8g"
+                ],
+                [
+                  "Sodium",
+                  "86mg",
+                  "26mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 tbsp. natural protein powder (flavour of your choice)",
+                "300ml unsweetened coconut milk"
+              ],
+              "instructions": [
+                "Add the protein powder and coconut milk in a protein shaker",
+                "Shake vigorously until mixed together",
+                "Serve"
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Wellness Chicken Bowl (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/wellness-chicken-bowl-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Wellness Chicken Bowl ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -3018,15 +5605,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Wellness Chicken Bowl ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Walnut Banana Bread (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/flourless-banana-bread-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Walnut Banana Bread ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -3042,15 +5647,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Walnut Banana Bread ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Ginger Beef With Stir Fried Brown Rice (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/ginger-beef-with-stir-fried-brown-rice-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Ginger Beef With Stir Fried Brown Rice ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -3066,8 +5689,26 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Ginger Beef With Stir Fried Brown Rice ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           }
         ]
@@ -3082,7 +5723,7 @@
             "category": "breakfast",
             "title": "Green Pea and Spinach Omelette",
             "mealURL": "https://f45challenge.com/recipe-list/green-pea-and-spinach-omelette/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Green Pea and Spinach Omelette",
               "servingsPerRecipe": "1",
               "servingsSize": "418.6g",
@@ -3143,15 +5784,77 @@
                 "Pour in the egg mixture and cook for a further 6 minutes on medium heat. Flip one half of the omelette over and continue to cook for a few minutes or until the egg sets in the middle",
                 "Whilst the omelette is cooking, toast the bread until golden brown",
                 "Serve the toast beside the omelette on a plate"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Green Pea and Spinach Omelette",
+              "servingsPerRecipe": "1",
+              "servingsSize": "248.6g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "411 cal",
+                  "165 cal"
+                ],
+                [
+                  "Protein",
+                  "20.4g",
+                  "8.2g"
+                ],
+                [
+                  "Fat, total",
+                  "25.8g",
+                  "10.4g"
+                ],
+                [
+                  "- saturated",
+                  "5.9g",
+                  "2.4g"
+                ],
+                [
+                  "Carbohydrate",
+                  "23.1g",
+                  "9.3g"
+                ],
+                [
+                  "- sugars",
+                  "4.7g",
+                  "1.9g"
+                ],
+                [
+                  "Sodium",
+                  "390mg",
+                  "157mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 free range eggs",
+                "50g frozen green peas",
+                "20g baby spinach leaves",
+                "15ml olive oil",
+                "1 gluten-free bread slice",
+                "Himalayan salt and pepper"
+              ],
+              "instructions": [
+                "Crack the eggs into a bowl and whisk vigorously. Season with Himalayan salt and pepper",
+                "Heat olive oil in a non-stick fry pan over low temperature and saute the green peas and spinach for 5 minutes",
+                "Pour in the egg mixture and cook for a further 6 minutes on medium heat. Flip one half of the omelette over and continue to cook for a few minutes or until the egg sets in the middle",
+                "Whilst the omelette is cooking, toast the bread until golden brown",
+                "Serve the toast beside the omelette on a plate"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Walnut Banana Bread (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/flourless-banana-bread-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Walnut Banana Bread ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -3167,15 +5870,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Walnut Banana Bread ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Tuna And White Bean Salad",
             "mealURL": "https://f45challenge.com/recipe-list/tuna-and-white-bean-salad/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Tuna And White Bean Salad",
               "servingsPerRecipe": "2",
               "servingsSize": "570.9g",
@@ -3238,15 +5959,80 @@
                 "Pour the dressing over the salad and mix well. Season with Himalayan salt and pepper",
                 "Divide the salad into two serves",
                 "Dish one serving of the tuna and white bean salad and refrigerate the leftover meal for tomorrow’s lunch"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Tuna And White Bean Salad",
+              "servingsPerRecipe": "2",
+              "servingsSize": "495.9g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "409 cal",
+                  "82 cal"
+                ],
+                [
+                  "Protein",
+                  "35.0g",
+                  "7.1g"
+                ],
+                [
+                  "Fat, total",
+                  "17.6g",
+                  "3.6g"
+                ],
+                [
+                  "- saturated",
+                  "3.4g",
+                  "0.7g"
+                ],
+                [
+                  "Carbohydrate",
+                  "20.6g",
+                  "4.2g"
+                ],
+                [
+                  "- sugars",
+                  "7.8g",
+                  "1.6g"
+                ],
+                [
+                  "Sodium",
+                  "460mg",
+                  "93mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "200g canned tuna in springwater, drained",
+                "250g canned cannellini beans drained and rinsed",
+                "400g mixed lettuce leaves",
+                "1/2 red onion, chopped",
+                "60g tomato, diced",
+                "2 tbsp. extra virgin olive oil",
+                "4 tbsp. lemon juice",
+                "1 garlic clove, crushed",
+                "1 small red chili, chopped"
+              ],
+              "instructions": [
+                "Add the cannellini beans, tuna, lettuce, onion and tomato to a bowl and combine well",
+                "Separately combine the dressing ingredients in a small bowl",
+                "Pour the dressing over the salad and mix well. Season with Himalayan salt and pepper",
+                "Divide the salad into two serves",
+                "Dish one serving of the tuna and white bean salad and refrigerate the leftover meal for tomorrow’s lunch"
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Almond Butter Strawberries",
             "mealURL": "https://f45challenge.com/recipe-list/strawberries-dipped-in-almond-butter/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Almond Butter Strawberries",
               "servingsPerRecipe": "1",
               "servingsSize": "93g",
@@ -3300,15 +6086,71 @@
                 "Pour the almond butter in a small jar",
                 "Dip the strawberries in the almond butter",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Almond Butter Strawberries",
+              "servingsPerRecipe": "1",
+              "servingsSize": "72g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "201 cal",
+                  "278 cal"
+                ],
+                [
+                  "Protein",
+                  "4.8g",
+                  "6.7g"
+                ],
+                [
+                  "Fat, total",
+                  "17.8g",
+                  "24.7g"
+                ],
+                [
+                  "- saturated",
+                  "1.7g",
+                  "2.3g"
+                ],
+                [
+                  "Carbohydrate",
+                  "8.0g",
+                  "11.1g"
+                ],
+                [
+                  "- sugars",
+                  "3.1g",
+                  "4.3g"
+                ],
+                [
+                  "Sodium",
+                  "136mg",
+                  "189mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "42g fresh strawberries",
+                "30g natural almond butter (no added sugar)"
+              ],
+              "instructions": [
+                "Pour the almond butter in a small jar",
+                "Dip the strawberries in the almond butter",
+                "Serve"
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Peri Peri Chicken, Sweet Potato Wedges and Beans",
             "mealURL": "https://f45challenge.com/recipe-list/peri-peri-chicken-with-sweet-potato-wedges/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Peri Peri Chicken, Sweet Potato Wedges and Beans",
               "servingsPerRecipe": "1",
               "servingsSize": "670g",
@@ -3378,8 +6220,80 @@
                 "Continue baking for a further 10-15 minutes or until cooked",
                 "Transfer the chicken, sweet potato wedges and green beans to a plate",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Peri Peri Chicken, Sweet Potato Wedges and Beans",
+              "servingsPerRecipe": "1",
+              "servingsSize": "470.1g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "423 cal",
+                  "90 cal"
+                ],
+                [
+                  "Protein",
+                  "40.0g",
+                  "8.5g"
+                ],
+                [
+                  "Fat, total",
+                  "12.8g",
+                  "2.7g"
+                ],
+                [
+                  "- saturated",
+                  "2.3g",
+                  "0.5g"
+                ],
+                [
+                  "Carbohydrate",
+                  "30.7g",
+                  "6.5g"
+                ],
+                [
+                  "- sugars",
+                  "10.6g",
+                  "2.2g"
+                ],
+                [
+                  "Sodium",
+                  "86mg",
+                  "18mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "150g raw chicken breast, lean",
+                "150g sweet potato, cut into wedges",
+                "150g raw green beans, ends trimmed",
+                "1 garlic clove, crushed",
+                "10ml olive oil",
+                "Himalayan salt",
+                "Pepper",
+                "1 tsp. paprika",
+                "1 tsp. cayenne pepper",
+                "1 tsp. oregano",
+                "1 tsp. cardamom",
+                "Himalayan salt"
+              ],
+              "instructions": [
+                "Preheat oven to 180 degrees and line a baking dish with baking paper",
+                "Season the chicken with garlic, spices and 5ml of olive oil in a bowl",
+                "Add the chicken breast onto the tray and bake in the oven for 5 minutes",
+                "Remove the tray from the oven and add the sweet potato wedges to the tray. Drizzle remaining oil and season with Himalayan salt and pepper",
+                "Bake in the oven for a further 15 minutes",
+                "Remove the tray from the oven and add the green beans to the tray",
+                "Continue baking for a further 10-15 minutes or until cooked",
+                "Transfer the chicken, sweet potato wedges and green beans to a plate",
+                "Serve"
+              ]
             }
           }
         ]
@@ -3394,7 +6308,7 @@
             "category": "breakfast",
             "title": "Peanut Butter Protein Crunch Shake",
             "mealURL": "https://f45challenge.com/recipe-list/peanut-butter-protein-crunch-shake/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Peanut Butter Protein Crunch Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "622.1g",
@@ -3456,15 +6370,79 @@
                 "Pour the smoothie into a large glass",
                 "Sprinkle the buckinis over the top",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Peanut Butter Protein Crunch Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "422.1g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "395 cal",
+                  "93 cal"
+                ],
+                [
+                  "Protein",
+                  "17.3g",
+                  "4.1g"
+                ],
+                [
+                  "Fat, total",
+                  "15.2g",
+                  "3.6g"
+                ],
+                [
+                  "- saturated",
+                  "4.1g",
+                  "1.0g"
+                ],
+                [
+                  "Carbohydrate",
+                  "41.1g",
+                  "9.7g"
+                ],
+                [
+                  "- sugars",
+                  "23.7g",
+                  "5.6g"
+                ],
+                [
+                  "Sodium",
+                  "107mg",
+                  "25mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "10g natural peanut butter",
+                "15g natural vanilla protein powder",
+                "1 tsp. (5g) desiccated coconut",
+                "120g banana, frozen",
+                "15g buckinis (activated buckwheat)",
+                "1 tsp. (5ml) organic honey",
+                "280ml unsweetened almond milk",
+                "1 cup ice cubes"
+              ],
+              "instructions": [
+                "Add the banana, ice, almond milk, honey, coconut, protein powder and peanut butter in a blender",
+                "Blend until a smooth consistency is formed",
+                "Pour the smoothie into a large glass",
+                "Sprinkle the buckinis over the top",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Broccoli And Parmesan Chips",
             "mealURL": "https://f45challenge.com/recipe-list/broccoli-and-parmesan-chips/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Broccoli And Parmesan Chips",
               "servingsPerRecipe": "2",
               "servingsSize": "244.5g",
@@ -3524,15 +6502,77 @@
                 "Bake the broccoli chips in the oven for 15 minutes or until golden brown and crunchy",
                 "Divide the broccoli chips into two serves",
                 "Dish one serving in a bowl and refrigerate the second serve for tomorrow’s snack"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Broccoli And Parmesan Chips",
+              "servingsPerRecipe": "2",
+              "servingsSize": "204g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "191 cal",
+                  "93 cal"
+                ],
+                [
+                  "Protein",
+                  "16.4g",
+                  "8.0g"
+                ],
+                [
+                  "Fat, total",
+                  "12.2g",
+                  "6.0g"
+                ],
+                [
+                  "- saturated",
+                  "5.3g",
+                  "2.6g"
+                ],
+                [
+                  "Carbohydrate",
+                  "0.7g",
+                  "0.3g"
+                ],
+                [
+                  "- sugars",
+                  "0.7g",
+                  "0.3g"
+                ],
+                [
+                  "Sodium",
+                  "362mg",
+                  "178mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "350g broccoli florets",
+                "50g parmesan cheese",
+                "2 tsp. (10ml) extra virgin olive oil",
+                "Himalayan salt"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees and line a baking tray with baking paper",
+                "Place the broccoli florets on the tray",
+                "Drizzle olive oil over the top",
+                "Sprinkle parmesan cheese over the broccoli and season with Himalayan salt",
+                "Bake the broccoli chips in the oven for 15 minutes or until golden brown and crunchy",
+                "Divide the broccoli chips into two serves",
+                "Dish one serving in a bowl and refrigerate the second serve for tomorrow’s snack"
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Tuna And White Bean Salad (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/tuna-and-white-bean-salad-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Tuna And White Bean Salad ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -3548,15 +6588,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Tuna And White Bean Salad ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Protein Coconut Shake",
             "mealURL": "https://f45challenge.com/recipe-list/protein-coconut-shake-2/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Protein Coconut Shake",
               "servingsPerRecipe": "1",
               "servingsSize": "537g",
@@ -3610,15 +6668,71 @@
                 "Add the protein powder and coconut milk in a protein shaker",
                 "Shake vigorously until mixed together",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Protein Coconut Shake",
+              "servingsPerRecipe": "1",
+              "servingsSize": "330g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "208 cal",
+                  "63 cal"
+                ],
+                [
+                  "Protein",
+                  "19.5g",
+                  "5.9g"
+                ],
+                [
+                  "Fat, total",
+                  "11.3g",
+                  "3.4g"
+                ],
+                [
+                  "- saturated",
+                  "6.9g",
+                  "2.1g"
+                ],
+                [
+                  "Carbohydrate",
+                  "6.1g",
+                  "1.8g"
+                ],
+                [
+                  "- sugars",
+                  "2.8g",
+                  "0.8g"
+                ],
+                [
+                  "Sodium",
+                  "86mg",
+                  "26mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 tbsp. natural protein powder (flavour of your choice)",
+                "300ml unsweetened coconut milk"
+              ],
+              "instructions": [
+                "Add the protein powder and coconut milk in a protein shaker",
+                "Shake vigorously until mixed together",
+                "Serve"
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Cheesy Stuffed Keto Capsicums",
             "mealURL": "https://f45challenge.com/recipe-list/cheesy-stuffed-keto-capsicums/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Cheesy Stuffed Keto Capsicums",
               "servingsPerRecipe": "2",
               "servingsSize": "696.8g",
@@ -3686,8 +6800,78 @@
                 "Place the capsicums on the tray. Evenly spoon the mixture into each capsicum and sprinkle the mozzarella cheese over the top",
                 "Bake the capsicums in the oven for 20 minutes or until the cheese has melted",
                 "Remove the capsicums from the oven. Serve 2 and refrigerate the remaining 2 capsicums for tomorrow’s leftover"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Cheesy Stuffed Keto Capsicums",
+              "servingsPerRecipe": "2",
+              "servingsSize": "619.5g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "423 cal",
+                  "68 cal"
+                ],
+                [
+                  "Protein",
+                  "35.7g",
+                  "5.8g"
+                ],
+                [
+                  "Fat, total",
+                  "24.8g",
+                  "4.0g"
+                ],
+                [
+                  "- saturated",
+                  "8.8g",
+                  "1.4g"
+                ],
+                [
+                  "Carbohydrate",
+                  "9.6g",
+                  "1.5g"
+                ],
+                [
+                  "- sugars",
+                  "9.6g",
+                  "1.5g"
+                ],
+                [
+                  "Sodium",
+                  "350mg",
+                  "57mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "4 (100g) red capsicums, top of capsicum removed",
+                "350g grass-fed beef mince",
+                "60g brown onion, diced",
+                "200g mushrooms, chopped",
+                "100g baby spinach leaves, shredded",
+                "100g mozzarella cheese",
+                "10ml extra virgin olive oil",
+                "20g slivered almonds",
+                "1 garlic clove, crushed",
+                "1 tsp. (2g) dried oregano",
+                "1 tsp. (2g) cumin",
+                "1 tsp. (2g) paprika"
+              ],
+              "instructions": [
+                "Pre-heat oven to 180 degrees and line a baking tray with baking paper",
+                "Heat olive oil in a non-stick fry pan over medium heat and cook the beef mince with beef spices for 1-2 minutes",
+                "Mix in the onion, mushroom, and spinach and continue cooking for 5 minutes. Drain any water from the fry pan",
+                "Mix in the slivered almonds",
+                "Place the capsicums on the tray. Evenly spoon the mixture into each capsicum and sprinkle the mozzarella cheese over the top",
+                "Bake the capsicums in the oven for 20 minutes or until the cheese has melted",
+                "Remove the capsicums from the oven. Serve 2 and refrigerate the remaining 2 capsicums for tomorrow’s leftover"
+              ]
             }
           }
         ]
@@ -3702,7 +6886,7 @@
             "category": "breakfast",
             "title": "Healthy Protein Brekkie Bowl",
             "mealURL": "https://f45challenge.com/recipe-list/healthy-protein-brekkie-bowl/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Healthy Protein Brekkie Bowl",
               "servingsPerRecipe": "1",
               "servingsSize": "225g",
@@ -3762,15 +6946,77 @@
                 "Add the baby spinach leaves, avocado, and boiled eggs into a bowl",
                 "Sprinkle the pumpkin seeds over the top. Squeeze lemon over the top and season with Himalayan salt and pepper",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Healthy Protein Brekkie Bowl",
+              "servingsPerRecipe": "1",
+              "servingsSize": "190g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "411 cal",
+                  "216 cal"
+                ],
+                [
+                  "Protein",
+                  "18.9g",
+                  "9.9g"
+                ],
+                [
+                  "Fat, total",
+                  "37.0g",
+                  "19.5g"
+                ],
+                [
+                  "- saturated",
+                  "11.2g",
+                  "5.9g"
+                ],
+                [
+                  "Carbohydrate",
+                  "1.4g",
+                  "0.7g"
+                ],
+                [
+                  "- sugars",
+                  "0.7g",
+                  "0.4g"
+                ],
+                [
+                  "Sodium",
+                  "73mg",
+                  "39mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "2 free range eggs",
+                "10g pumpkin seeds",
+                "30g baby spinach leaves",
+                "50g avocado, chopped",
+                "1 lemon wedge",
+                "Himalayan salt and pepper"
+              ],
+              "instructions": [
+                "To make the boiled eggs, boil water in a saucepan over medium heat and cook the eggs for 7 minutes. Once cooked, drain the water and rinse the eggs under cold water",
+                "To crack the shell, use a spoon and tap the top of the egg. Peel the skin off. Repeat for the remaining eggs",
+                "Add the baby spinach leaves, avocado, and boiled eggs into a bowl",
+                "Sprinkle the pumpkin seeds over the top. Squeeze lemon over the top and season with Himalayan salt and pepper",
+                "Serve"
+              ]
             }
           },
           {
             "category": "am Snacks",
             "title": "Almond Butter Strawberries",
             "mealURL": "https://f45challenge.com/recipe-list/strawberries-dipped-in-almond-butter/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Almond Butter Strawberries",
               "servingsPerRecipe": "1",
               "servingsSize": "93g",
@@ -3824,15 +7070,71 @@
                 "Pour the almond butter in a small jar",
                 "Dip the strawberries in the almond butter",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Almond Butter Strawberries",
+              "servingsPerRecipe": "1",
+              "servingsSize": "72g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "201 cal",
+                  "278 cal"
+                ],
+                [
+                  "Protein",
+                  "4.8g",
+                  "6.7g"
+                ],
+                [
+                  "Fat, total",
+                  "17.8g",
+                  "24.7g"
+                ],
+                [
+                  "- saturated",
+                  "1.7g",
+                  "2.3g"
+                ],
+                [
+                  "Carbohydrate",
+                  "8.0g",
+                  "11.1g"
+                ],
+                [
+                  "- sugars",
+                  "3.1g",
+                  "4.3g"
+                ],
+                [
+                  "Sodium",
+                  "136mg",
+                  "189mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "42g fresh strawberries",
+                "30g natural almond butter (no added sugar)"
+              ],
+              "instructions": [
+                "Pour the almond butter in a small jar",
+                "Dip the strawberries in the almond butter",
+                "Serve"
+              ]
             }
           },
           {
             "category": "lunch",
             "title": "Chicken Oregano Souvlaki",
             "mealURL": "https://f45challenge.com/recipe-list/chicken-oregano-souvlaki/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Chicken Oregano Souvlaki",
               "servingsPerRecipe": "1",
               "servingsSize": "490.3g",
@@ -3901,15 +7203,86 @@
                 "Combine the yoghurt, cucumber, mint and 1 garlic clove crushed in a small bowl. Season with Himalayan salt",
                 "Place the spinach and tomatoes on a plate. Drizzle balsamic vinegar over the spinach. Place the chicken skewers on top of the spinach bed and drizzle the yoghurt and garlic sauce over the top",
                 "Serve"
+              ]
+            },
+            "isLeftover": false,
+            "femaleRecipe": {
+              "title": "Chicken Oregano Souvlaki",
+              "servingsPerRecipe": "1",
+              "servingsSize": "435.6g",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "Average Quantity Per Serve",
+                  "Average Quantity Per 100g"
+                ],
+                [
+                  "Calories",
+                  "423 cal",
+                  "97 cal"
+                ],
+                [
+                  "Protein",
+                  "52.1g",
+                  "12.0g"
+                ],
+                [
+                  "Fat, total",
+                  "17.6g",
+                  "4.0g"
+                ],
+                [
+                  "- saturated",
+                  "7.8g",
+                  "1.8g"
+                ],
+                [
+                  "Carbohydrate",
+                  "10.8g",
+                  "2.5g"
+                ],
+                [
+                  "- sugars",
+                  "10.1g",
+                  "2.3g"
+                ],
+                [
+                  "Sodium",
+                  "185mg",
+                  "43mg"
+                ]
               ],
-              "isLeftover": false
+              "ingredients": [
+                "180g uncooked chicken breast, chopped",
+                "1 tbsp. oregano",
+                "1 tbsp. dried parsley",
+                "2 garlic cloves crushed",
+                "1 lemon wedge",
+                "1 tsp. cumin",
+                "1 tsp. sweet paprika",
+                "1/3 cup natural greek yoghurt",
+                "1/2 cup cucumber, diced",
+                "1 tbsp. dried mint",
+                "1 cup spinach leaves",
+                "5 cherry tomatoes, cut into half",
+                "1 tbsp. extra virgin olive oil",
+                "2 tbsp. balsamic vinegar"
+              ],
+              "instructions": [
+                "Marinate the chicken by combining the chicken, oregano, parsley, 1 garlic crushed, olive oil, cumin and paprika in a bowl. Refrigerate for 1/2 an hour to set",
+                "Remove the chicken from the fridge and thread the chicken on skewers",
+                "Heat a barbecue grill over medium temperature and cook the chicken skewers for 3-4 minutes on each side or until it’s cooked all over and in the middle",
+                "Combine the yoghurt, cucumber, mint and 1 garlic clove crushed in a small bowl. Season with Himalayan salt",
+                "Place the spinach and tomatoes on a plate. Drizzle balsamic vinegar over the spinach. Place the chicken skewers on top of the spinach bed and drizzle the yoghurt and garlic sauce over the top",
+                "Serve"
+              ]
             }
           },
           {
             "category": "pm snack",
             "title": "Broccoli And Parmesan Chips (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/broccoli-and-parmesan-chips-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Broccoli And Parmesan Chips ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -3925,15 +7298,33 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Broccoli And Parmesan Chips ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           },
           {
             "category": "dinner",
             "title": "Cheesy Stuffed Keto Capsicums (leftover)",
             "mealURL": "https://f45challenge.com/recipe-list/cheesy-stuffed-keto-capsicums-leftover/",
-            "recipe": {
+            "maleRecipe": {
               "title": "Cheesy Stuffed Keto Capsicums ",
               "servingsPerRecipe": "notFound",
               "servingsSize": "notFound",
@@ -3949,8 +7340,26 @@
               ],
               "instructions": [
                 null
+              ]
+            },
+            "isLeftover": true,
+            "femaleRecipe": {
+              "title": "Cheesy Stuffed Keto Capsicums ",
+              "servingsPerRecipe": "notFound",
+              "servingsSize": "notFound",
+              "nutritionalFacts": [
+                [
+                  "",
+                  "notFound",
+                  "notFound"
+                ]
               ],
-              "isLeftover": true
+              "ingredients": [
+                null
+              ],
+              "instructions": [
+                null
+              ]
             }
           }
         ]

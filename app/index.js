@@ -9,6 +9,11 @@ const CREDENTIALS = require('./data/credentials/credentials');
 const PAGE_DATA = require('./data/web/page.data');
 
 async function run() {
+
+    ////// TIMER START
+    let hrStart = process.hrtime();
+    //////
+
     //Launching non-headless for visual debugging
     const browser = await puppeteer.launch({
         headless: false
@@ -31,7 +36,8 @@ async function run() {
     // Get the Basic Meal Data for each Week
     const weeklyData = await getWeeklyData(page, availableWeeks, PAGE_DATA.MEAL_PLANS.SELECTORS);
 
-    const finishedData = await getRecipes(page, weeklyData);
+    // const finishedData = await getRecipes(page, weeklyData);
+    const finishedData = await getRecipesByGender(page, weeklyData);
     console.log('********* FINISHED *********');
     console.log(finishedData[1].dayData[1].meals[1]);
 
@@ -41,8 +47,14 @@ async function run() {
     fs.writeFile(
         './json/f45-recipes.json',
         JSON.stringify(finishedData, null, 2),            // addtional params for nice formatting
-        (err) => err ? console.error('Data not written', err) : console.log('********* FINISHED *********')
+        (err) => err ? console.error('Data not written', err) : console.log('********* FINISHED WRITING DATA *********')
     );
+
+
+    ///// TIMER END
+    let hrend = process.hrtime(hrStart);
+    console.log('Execution time: %ds %dms', hrend[0], hrend[1] / 1000000);
+    /////
     
     return;
 }
@@ -172,10 +184,39 @@ async function getThisWeeksMeals(page, SELECTORS) {
 
 
 
-async function getRecipes(page, weeklyData) {
+
+
+async function switchGender(page, gender) {
+    let genderButton;
+    (gender === 'MALE') ? genderButton = PAGE_DATA.PROFILE.SELECTORS.MALE_BUTTON_SELECTOR : genderButton = PAGE_DATA.PROFILE.SELECTORS.FEMALE_BUTTON_SELECTOR;
+
+    // Goto Profile Page
+    await page.goto(PAGE_DATA.PROFILE.URL);
+
+    // Click 
+    await page.click(genderButton);
+    console.log(`SWITCHED TO ${gender}`);
+
+    // Save the Settings
+    await page.click(PAGE_DATA.PROFILE.SELECTORS.SUBMIT_BUTTON_SELECTOR);
+}
+
+
+async function getRecipesByGender(page, weeklyData) {
+
+    await switchGender(page, 'MALE')
+    let revisedWeeklyData = await getRecipes(page, weeklyData, 'MALE');
+
+    let finalData
+    await switchGender(page, 'FEMALE');
+    let finalWeeklyData = await getRecipes(page, revisedWeeklyData, 'FEMALE');
+    
+    return finalWeeklyData;
+}
+
+async function getRecipes(page, weeklyData, gender) {
 
     for (let week of weeklyData) {
-
         //Iterate through the days of that week
         for (let day of week.dayData) {
             console.log(`--------${day.dayInfo.date}--------`);
@@ -186,9 +227,11 @@ async function getRecipes(page, weeklyData) {
 
                 //Go to Page and get meal
                 await page.goto(meal.mealURL);
-                meal.recipe = await getMealData(page, PAGE_DATA.MEAL_PAGE.SELECTORS);
-                meal.recipe.isLeftover = await(checkLeftover(meal.mealURL));
-                console.log(meal.recipe)
+                // meal.recipe = await getMealData(page, PAGE_DATA.MEAL_PAGE.SELECTORS);
+                let recipe = await getMealData(page, PAGE_DATA.MEAL_PAGE.SELECTORS);
+                (gender === 'MALE') ? meal.maleRecipe = recipe : meal.femaleRecipe = recipe;
+                
+                meal.isLeftover = await(checkLeftover(meal.mealURL));
             }
         }
     }
